@@ -1,12 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl#"
-     xml:base="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl/"
+     xml:base="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl">
@@ -544,6 +548,18 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -665,6 +681,232 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barry Smith, Werner Ceusters</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000116>I have placed this under &apos;data about an ontology part&apos;, but this can be discussed. I think this is OK if &apos;part&apos; is interpreted reflexively, as an ontology module is the whole ontology rather than part of it.</obo:IAO_0000116>
+        <obo:IAO_0000118>ontology file</obo:IAO_0000118>
+        <obo:IAO_0000232>This class and it&apos;s subclasses are applied to OWL ontologies. Using an rdf:type triple will result in problems with OWL-DL. I propose that dcterms:type is instead used to connect an ontology URI with a class from this hierarchy. The class hierarchy is not disjoint, so multiple assertions can be made about a single ontology.</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:55:03Z</oboInOwl:creation_date>
+        <rdfs:label>ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that comprises only of asserted axioms local to the ontology, excludes import directives, and excludes axioms or declarations from external ontologies.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:55:30Z</oboInOwl:creation_date>
+        <rdfs:label>component ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/INCATools/ontology-starter-kit/issues/50"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that is intended to be directly edited, typically managed in source control, and typically not intended for direct consumption by end-users.</obo:IAO_0000115>
+        <obo:IAO_0000118>source ontology module</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:55:47Z</oboInOwl:creation_date>
+        <rdfs:label>editors ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that is intended to be the primary release product and the one consumed by the majority of tools.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO: Add logical axioms that state that a main release ontology module is derived from (directly or indirectly) an editors module</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:56:13Z</oboInOwl:creation_date>
+        <rdfs:label>main release ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that consists entirely of axioms that connect or bridge two distinct ontology modules. For example, the Uberon-to-ZFA bridge module.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:56:23Z</oboInOwl:creation_date>
+        <rdfs:label>bridge ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/inter-anatomy-ontology-bridge-ontologies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>An ontology subset module that is intended to be imported from another ontology.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO: add axioms that indicate this is the output of a module extraction process.</obo:IAO_0000116>
+        <obo:IAO_0000118>import file</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:56:47Z</oboInOwl:creation_date>
+        <rdfs:label>import ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://robot.obolibrary.org/extract"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that is extracted from a main ontology module and includes only a subset of entities or axioms.</obo:IAO_0000115>
+        <obo:IAO_0000118>ontology slim</obo:IAO_0000118>
+        <obo:IAO_0000118>ontology subset</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:58:11Z</oboInOwl:creation_date>
+        <rdfs:label>subset ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://robot.obolibrary.org/filter"/>
+        <rdfs:seeAlso rdf:resource="http://www.geneontology.org/page/go-slim-and-subset-guide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>An ontology subset that is intended as a whitelist for curators using the ontology. Such a subset will exclude classes that curators should not use for curation.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:58:38Z</oboInOwl:creation_date>
+        <rdfs:label>curation subset ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>An ontology module that is intended for usage in analysis or discovery applications.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:58:49Z</oboInOwl:creation_date>
+        <rdfs:label>analysis subset ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>An ontology subset that is largely comprised of a single layer or strata in an ontology class hierarchy. The purpose is typically for rolling up for visualization. The classes in the layer need not be disjoint.</obo:IAO_0000115>
+        <obo:IAO_0000118>ribbon subset</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:59:19Z</oboInOwl:creation_date>
+        <rdfs:label>single layer subset ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>A subset of an ontology that is intended to be excluded for some purpose. For example, a blacklist of classes.</obo:IAO_0000115>
+        <obo:IAO_0000118>antislim</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:59:57Z</oboInOwl:creation_date>
+        <rdfs:label>exclusion subset ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000005"/>
+        <obo:IAO_0000115>An imported ontology module that is derived from an external ontology. Derivation methods include the OWLAPI SLME approach.</obo:IAO_0000115>
+        <obo:IAO_0000118>external import</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:00:14Z</oboInOwl:creation_date>
+        <rdfs:label>external import ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
+        <obo:IAO_0000115>An ontology subset that is crafted to either include or exclude a taxonomic grouping of species.</obo:IAO_0000115>
+        <obo:IAO_0000118>taxon subset</obo:IAO_0000118>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:14:16Z</oboInOwl:creation_date>
+        <rdfs:label>species subset ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that contains axioms generated by a reasoner. The generated axioms are typically direct SubClassOf axioms, but other possibilities are available.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:20:33Z</oboInOwl:creation_date>
+        <rdfs:label>reasoned ontology subset module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://robot.obolibrary.org/reason"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
+        <obo:IAO_0000115>An ontology module that is automatically generated, for example via a SPARQL query or via template and a CSV.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO: Add axioms (using PROV-O?) that indicate this is the output-of some reasoning process</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:21:12Z</oboInOwl:creation_date>
+        <rdfs:label>generated ontology module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000014"/>
+        <obo:IAO_0000115>An ontology module that is automatically generated from a template specification and fillers for slots in that template.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:21:21Z</oboInOwl:creation_date>
+        <rdfs:label>template generated ontology module</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://robot.obolibrary.org/template"/>
+        <rdfs:seeAlso rdf:resource="https://doi.org/10.1186/s13326-017-0126-0"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/dosumis/dead_simple_owl_design_patterns/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_8000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000004"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:28:15Z</oboInOwl:creation_date>
+        <rdfs:label>taxonomic bridge ontology module</rdfs:label>
     </owl:Class>
     
 
@@ -952,5 +1194,5 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
 
 
-<!-- Generated by the OWL API (version 4.2.8) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
