@@ -755,7 +755,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
-        <obo:IAO_0000115>An ontology subset module that is intended to be imported from another ontology.</obo:IAO_0000115>
+        <obo:IAO_0000115>A subset ontology module that is intended to be imported from another ontology.</obo:IAO_0000115>
         <obo:IAO_0000116>TODO: add axioms that indicate this is the output of a module extraction process.</obo:IAO_0000116>
         <obo:IAO_0000118>import file</obo:IAO_0000118>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
@@ -772,7 +772,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000000"/>
         <obo:IAO_0000115>An ontology module that is extracted from a main ontology module and includes only a subset of entities or axioms.</obo:IAO_0000115>
         <obo:IAO_0000118>ontology slim</obo:IAO_0000118>
-        <obo:IAO_0000118>ontology subset</obo:IAO_0000118>
+        <obo:IAO_0000118>subset ontology</obo:IAO_0000118>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:58:11Z</oboInOwl:creation_date>
         <rdfs:label>subset ontology module</rdfs:label>
@@ -786,7 +786,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
-        <obo:IAO_0000115>An ontology subset that is intended as a whitelist for curators using the ontology. Such a subset will exclude classes that curators should not use for curation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A subset ontology that is intended as a whitelist for curators using the ontology. Such a subset will exclude classes that curators should not use for curation.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:58:38Z</oboInOwl:creation_date>
         <rdfs:label>curation subset ontology module</rdfs:label>
@@ -810,7 +810,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
-        <obo:IAO_0000115>An ontology subset that is largely comprised of a single layer or strata in an ontology class hierarchy. The purpose is typically for rolling up for visualization. The classes in the layer need not be disjoint.</obo:IAO_0000115>
+        <obo:IAO_0000115>A subset ontology that is largely comprised of a single layer or strata in an ontology class hierarchy. The purpose is typically for rolling up for visualization. The classes in the layer need not be disjoint.</obo:IAO_0000115>
         <obo:IAO_0000118>ribbon subset</obo:IAO_0000118>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:59:19Z</oboInOwl:creation_date>
@@ -849,7 +849,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000006"/>
-        <obo:IAO_0000115>An ontology subset that is crafted to either include or exclude a taxonomic grouping of species.</obo:IAO_0000115>
+        <obo:IAO_0000115>A subset ontology that is crafted to either include or exclude a taxonomic grouping of species.</obo:IAO_0000115>
         <obo:IAO_0000118>taxon subset</obo:IAO_0000118>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T21:14:16Z</oboInOwl:creation_date>
@@ -926,7 +926,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_8000017"/>
-        <obo:IAO_0000115>An ontology subset that is designed for basic applications to continue to make certain simplifying assumptions; many of these simplifying assumptions were based on the initial version of the Gene Ontology, and have become enshrined in many popular and useful tools such as term enrichment tools.
+        <obo:IAO_0000115>A subset ontology that is designed for basic applications to continue to make certain simplifying assumptions; many of these simplifying assumptions were based on the initial version of the Gene Ontology, and have become enshrined in many popular and useful tools such as term enrichment tools.
 
 Examples of such assumptions include: traversing the ontology graph ignoring relationship types using a naive algorithm will not lead to cycles (i.e. the ontology is a DAG); every referenced term is declared in the ontology (i.e. there are no dangling clauses).
 
