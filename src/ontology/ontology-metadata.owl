@@ -706,7 +706,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>An ontology module that comprises only of asserted axioms local to the ontology, excludes import directives, and excludes axioms or declarations from external ontologies.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:55:30Z</oboInOwl:creation_date>
-        <rdfs:label>component ontology module</rdfs:label>
+        <rdfs:label>base ontology module</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://github.com/INCATools/ontology-starter-kit/issues/50"/>
     </owl:Class>
     
