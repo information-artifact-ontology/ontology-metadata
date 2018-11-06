@@ -443,7 +443,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-21T16:43:39Z</oboInOwl:creation_date>
         <rdfs:comment>Edges asserting this should be annotated with to record evidence supporting the assertion and its provenance.</rdfs:comment>
         <rdfs:label xml:lang="en">may be identical to</rdfs:label>
-        <oboInOwl1:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dos</oboInOwl1:created_by>
     </owl:AnnotationProperty>
     
 
@@ -573,12 +572,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    
-
-
-    <!-- ttp://www.geneontology.org/formats/oboInOwl#created_by -->
-
-    <owl:AnnotationProperty rdf:about="ttp://www.geneontology.org/formats/oboInOwl#created_by"/>
     
 
 
