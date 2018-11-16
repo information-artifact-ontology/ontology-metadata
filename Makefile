@@ -18,8 +18,6 @@ SHELL := bash
 .SUFFIXES:
 
 ### Definitions
-
-SHELL   := /bin/bash
 OBO     := http://purl.obolibrary.org/obo
 IAO  	:= $(OBO)/IAO_
 TODAY   := $(shell date +%Y-%m-%d)
@@ -44,15 +42,16 @@ ROBOT := java -jar build/robot.jar
 # Here we create a standalone OWL file appropriate for release.
 # This involves annotating.
 
-build/ontology-metadata_versioned.owl: src/ontology/ontology-metadata.owl | build/robot.jar build
-	$(ROBOT) annotate \
+ontology-metadata.owl: src/ontology/ontology-metadata-edit.owl | build/robot.jar
+	$(ROBOT) reason \
 	--input $< \
+	--reasoner HermiT \
+	annotate \
 	--ontology-iri "$(OBO)/iao/ontology-metadata.owl" \
 	--version-iri "$(OBO)/iao/$(TODAY)/ontology-metadata.owl" \
-	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
-build/terms-report.csv: build/ontology-metadata_versioned.owl src/sparql/terms-report.rq | build
+build/terms-report.csv: ontology-metadata.owl src/sparql/terms-report.rq | build
 	$(ROBOT) query --input $< --select $(word 2,$^) $@
 
 
@@ -60,7 +59,7 @@ build/terms-report.csv: build/ontology-metadata_versioned.owl src/sparql/terms-r
 #
 # Full build
 .PHONY: all
-all: build/ontology-metadata_versioned.owl build/terms-report.csv
+all: ontology-metadata.owl build/terms-report.csv
 
 # Remove generated files
 .PHONY: clean
