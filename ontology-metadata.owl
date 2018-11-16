@@ -11,8 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/iao/2018-11-12/ontology-metadata.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-11-12</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/iao/2018-11-16/ontology-metadata.owl"/>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
     </owl:Ontology>
     
@@ -585,7 +584,9 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
