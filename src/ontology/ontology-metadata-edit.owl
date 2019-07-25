@@ -37,7 +37,7 @@
         <dc:contributor xml:lang="en">Melanie Courtot</dc:contributor>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Jennifer Fostel</dc:contributor>
-        <dcterms:license>http://creativecommons.org/licenses/by/4.0/</dcterms:license>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Michel Dumontier</dc:contributor>
         <dc:contributor xml:lang="en">James Malone</dc:contributor>
