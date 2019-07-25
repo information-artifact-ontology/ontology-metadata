@@ -1,55 +1,55 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl#"
      xml:base="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/iao/2019-01-24/ontology-metadata.owl"/>
-        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
-        <dc:contributor xml:lang="en">Pat Hayes</dc:contributor>
-        <dc:contributor xml:lang="en">Jie Zheng</dc:contributor>
-        <dc:contributor xml:lang="en">Albert Goldfain</dc:contributor>
-        <dc:contributor xml:lang="en">William Duncan</dc:contributor>
-        <dc:contributor xml:lang="en">Philippe Rocca-Serra</dc:contributor>
-        <dc:contributor xml:lang="en">Gwen Frishkoff</dc:contributor>
-        <dc:contributor xml:lang="en">Matt Brush</dc:contributor>
-        <dc:contributor xml:lang="en">James A. Overton</dc:contributor>
-        <dc:contributor xml:lang="en">Jonathan Rees</dc:contributor>
-        <dc:contributor xml:lang="en">Satya Sahoo</dc:contributor>
-        <dc:contributor xml:lang="en">David Osumi-Sutherland</dc:contributor>
-        <dc:contributor xml:lang="en">Sivaram Arabandi</dc:contributor>
-        <dc:contributor xml:lang="en">Ron Rudnicki</dc:contributor>
-        <dc:contributor xml:lang="en">Paolo Ciccarese</dc:contributor>
-        <dc:contributor xml:lang="en">Darren Natale</dc:contributor>
-        <dc:contributor xml:lang="en">Bjoern Peters</dc:contributor>
-        <dc:contributor xml:lang="en">Melanie Courtot</dc:contributor>
-        <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
-        <dc:contributor xml:lang="en">Jennifer Fostel</dc:contributor>
-        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
-        <dc:contributor xml:lang="en">Michel Dumontier</dc:contributor>
-        <dc:contributor xml:lang="en">James Malone</dc:contributor>
-        <dc:contributor xml:lang="en">Chris Mungall</dc:contributor>
-        <dc:contributor xml:lang="en">Carlo Torniai</dc:contributor>
-        <dc:contributor xml:lang="en">Christian A. Boelling</dc:contributor>
-        <dc:contributor xml:lang="en">William Hogan</dc:contributor>
-        <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
-        <dc:contributor xml:lang="en">Holger Stenzhorn</dc:contributor>
-        <dc:contributor xml:lang="en">Yongqun (Oliver) He</dc:contributor>
-        <dc:contributor xml:lang="en">Werner Ceusters</dc:contributor>
-        <dc:contributor xml:lang="en">Randy Dipert</dc:contributor>
-        <dc:contributor xml:lang="en">Larisa Soldatova</dc:contributor>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/iao/2019-07-25/ontology-metadata.owl"/>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
+        <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
+        <dc:contributor xml:lang="en">Albert Goldfain</dc:contributor>
+        <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
+        <dc:contributor xml:lang="en">Bjoern Peters</dc:contributor>
+        <dc:contributor xml:lang="en">Carlo Torniai</dc:contributor>
+        <dc:contributor xml:lang="en">Chris Mungall</dc:contributor>
+        <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
+        <dc:contributor xml:lang="en">Christian A. Boelling</dc:contributor>
+        <dc:contributor xml:lang="en">Darren Natale</dc:contributor>
+        <dc:contributor xml:lang="en">David Osumi-Sutherland</dc:contributor>
+        <dc:contributor xml:lang="en">Gwen Frishkoff</dc:contributor>
+        <dc:contributor xml:lang="en">Holger Stenzhorn</dc:contributor>
+        <dc:contributor xml:lang="en">James A. Overton</dc:contributor>
+        <dc:contributor xml:lang="en">James Malone</dc:contributor>
+        <dc:contributor xml:lang="en">Jennifer Fostel</dc:contributor>
+        <dc:contributor xml:lang="en">Jie Zheng</dc:contributor>
+        <dc:contributor xml:lang="en">Jonathan Rees</dc:contributor>
+        <dc:contributor xml:lang="en">Larisa Soldatova</dc:contributor>
         <dc:contributor xml:lang="en">Lawrence Hunter</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matt Brush</dc:contributor>
+        <dc:contributor xml:lang="en">Melanie Courtot</dc:contributor>
+        <dc:contributor xml:lang="en">Michel Dumontier</dc:contributor>
+        <dc:contributor xml:lang="en">Paolo Ciccarese</dc:contributor>
+        <dc:contributor xml:lang="en">Pat Hayes</dc:contributor>
+        <dc:contributor xml:lang="en">Philippe Rocca-Serra</dc:contributor>
+        <dc:contributor xml:lang="en">Randy Dipert</dc:contributor>
+        <dc:contributor xml:lang="en">Ron Rudnicki</dc:contributor>
+        <dc:contributor xml:lang="en">Satya Sahoo</dc:contributor>
+        <dc:contributor xml:lang="en">Sivaram Arabandi</dc:contributor>
+        <dc:contributor xml:lang="en">Werner Ceusters</dc:contributor>
+        <dc:contributor xml:lang="en">William Duncan</dc:contributor>
+        <dc:contributor xml:lang="en">William Hogan</dc:contributor>
+        <dc:contributor xml:lang="en">Yongqun (Oliver) He</dc:contributor>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     </owl:Ontology>
     
 
@@ -610,6 +610,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -635,9 +641,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
     
 
 
@@ -1319,5 +1323,5 @@ No imports</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
