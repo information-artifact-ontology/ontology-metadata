@@ -1,8 +1,8 @@
-# Ontology-metadata ontology Makefile
+# omo ontology Makefile
 # Jie Zheng
 #
 # This Makefile is used to build artifacts
-# for the IAO ontology metadata.
+# for the OBO Metadata Ontology (OMO).
 #
 
 ### Configuration
@@ -42,24 +42,24 @@ ROBOT := java -jar build/robot.jar
 # Here we create a standalone OWL file appropriate for release.
 # This involves annotating.
 
-ontology-metadata.owl: src/ontology/ontology-metadata-edit.owl | build/robot.jar
+omo.owl: src/ontology/omo-edit.owl | build/robot.jar
 	$(ROBOT) reason \
 	--input $< \
 	--reasoner HermiT \
 	annotate \
-	--ontology-iri "$(OBO)/iao/ontology-metadata.owl" \
-	--version-iri "$(OBO)/iao/$(TODAY)/ontology-metadata.owl" \
+	--ontology-iri "$(OBO)/omo.owl" \
+	--version-iri "$(OBO)/omo/$(TODAY)/omo.owl" \
 	--output $@
 
-build/terms-report.csv: ontology-metadata.owl src/sparql/terms-report.rq | build
+build/terms-report.csv: omo.owl src/sparql/terms-report.rq | build
 	$(ROBOT) query --input $< --select $(word 2,$^) $@
 
 
-### General/Users/jiezheng/Documents/ontology/eupath
+### 
 #
 # Full build
 .PHONY: all
-all: ontology-metadata.owl build/terms-report.csv
+all: omo.owl build/terms-report.csv
 
 # Remove generated files
 .PHONY: clean
