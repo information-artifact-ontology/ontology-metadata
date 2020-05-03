@@ -53,7 +53,9 @@
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">William Hogan</dc:contributor>
         <dc:contributor xml:lang="en">Yongqun (Oliver) He</dc:contributor>
-        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
+        <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
+        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     </owl:Ontology>
     
 
