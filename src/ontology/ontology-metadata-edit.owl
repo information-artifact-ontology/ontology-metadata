@@ -1060,6 +1060,7 @@ No imports</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#DbXref">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <rdfs:label xml:lang="en">database_cross_reference</rdfs:label>
     </owl:Class>
     
 
@@ -1068,6 +1069,8 @@ No imports</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#Definition">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en">The textual definition of the current term. There must be zero or one instances of this tag per term description</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:Class>
     
 
@@ -1083,6 +1086,8 @@ No imports</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en">A grouping of terms from an ontology or ontologies. Note that this is not a metaclass - classes are linked to subsets via oboInOwl:inSubset</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subset</rdfs:label>
     </owl:Class>
     
 
@@ -1091,6 +1096,8 @@ No imports</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#Synonym">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en">An instance of synonym usage. synonym instances are linked to classes via oboInOwl:has*Synonym properties</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">synonym</rdfs:label>
     </owl:Class>
     
 
@@ -1099,6 +1106,7 @@ No imports</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymType">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <rdfs:label xml:lang="en">synonym_type</rdfs:label>
     </owl:Class>
     
 
