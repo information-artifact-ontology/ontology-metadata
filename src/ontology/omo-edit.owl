@@ -91,7 +91,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
@@ -239,13 +239,13 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
-        <obo:IAO_0000111>term tracker item</obo:IAO_0000111>
-        <obo:IAO_0000112>the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115>An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
-        <rdfs:comment>The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -254,10 +254,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
+        <obo:IAO_0000111 xml:lang="en">ontology term requester</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115>The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
         <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
     </owl:AnnotationProperty>
@@ -268,10 +269,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000411">
         <obo:IAO_0000111 xml:lang="en">is denotator type</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relates an class defined in an ontology, to the type of it&apos;s denotator</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In OWL 2 add AnnotationPropertyRange(&apos;is denotator type&apos; &apos;denotator type&apos;)</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is denotator type</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Relates an class defined in an ontology, to the type of it&apos;s denotator</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">In OWL 2 add AnnotationPropertyRange(&apos;is denotator type&apos; &apos;denotator type&apos;)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is denotator type</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -348,7 +349,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
         <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &apos;sequence &apos; + [label], etc. , MA could specify &apos;mouse + [label]&apos; etc. Upon importing terms, ontology developers can choose to use the &apos;OBO foundry unique label&apos; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &apos;sequence &apos; + [label], etc. , MA could specify &apos;mouse + [label]&apos; etc. Upon importing terms, ontology developers can choose to use the &apos;OBO foundry unique label&apos; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
@@ -362,14 +363,15 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
     <!-- http://purl.obolibrary.org/obo/IAO_0000596 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000596">
-        <obo:IAO_0000112>Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
+        <obo:IAO_0000111 xml:lang="en">has ID digit count</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
   Annotations: 
      &apos;has ID prefix&apos;: &quot;http://purl.obolibrary.org/obo/RO_&quot;
      &apos;has ID digit count&apos; : 7,
      rdfs:label &quot;RO id policy&quot;
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
-        <obo:IAO_0000115>Relates an ontology used to record id policy to the number of digits in the URI. The URI is: the &apos;has ID prefix&quot; annotation property value concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits)</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Relates an ontology used to record id policy to the number of digits in the URI. The URI is: the &apos;has ID prefix&quot; annotation property value concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has ID digit count</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -378,12 +380,13 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
     <!-- http://purl.obolibrary.org/obo/IAO_0000597 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000597">
-        <obo:IAO_0000112>Datatype: idrange:1
+        <obo:IAO_0000111 xml:lang="en">has ID range allocated</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Datatype: idrange:1
 Annotations: &apos;has ID range allocated to&apos;: &quot;Chris Mungall&quot;
 EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 </obo:IAO_0000112>
-        <obo:IAO_0000115>Relates a datatype that encodes a range of integers to the name of the person or organization who can use those ids constructed in that range to define new terms</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Relates a datatype that encodes a range of integers to the name of the person or organization who can use those ids constructed in that range to define new terms</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has ID range allocated to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -392,15 +395,16 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0000598 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000598">
-        <obo:IAO_0000112>Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
+        <obo:IAO_0000111 xml:lang="en">has ID policy for</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
   Annotations: 
      &apos;has ID prefix&apos;: &quot;http://purl.obolibrary.org/obo/RO_&quot;
      &apos;has ID digit count&apos; : 7,
      rdfs:label &quot;RO id policy&quot;
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
-        <obo:IAO_0000115>Relating an ontology used to record id policy to the ontology namespace whose policy it manages</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:label>has ID policy for</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Relating an ontology used to record id policy to the ontology namespace whose policy it manages</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has ID policy for</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -408,14 +412,15 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0000599 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000599">
-        <obo:IAO_0000112>Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
+        <obo:IAO_0000111 xml:lang="en">has ID prefix</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Ontology: &lt;http://purl.obolibrary.org/obo/ro/idrange/&gt;
   Annotations: 
      &apos;has ID prefix&apos;: &quot;http://purl.obolibrary.org/obo/RO_&quot;
      &apos;has ID digit count&apos; : 7,
      rdfs:label &quot;RO id policy&quot;
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
-        <obo:IAO_0000115>Relates an ontology used to record id policy to a prefix concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits) to construct an ID for a term being created.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Relates an ontology used to record id policy to a prefix concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits) to construct an ID for a term being created.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has ID prefix</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -473,9 +478,9 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
         <obo:IAO_0000111 xml:lang="en">has ontology root term</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicolas Matentzoglu</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has ontology root term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Nicolas Matentzoglu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has ontology root term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -483,12 +488,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0006011 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0006011">
-        <obo:IAO_0000115>A annotation relationship between two terms in an ontology that may refer to the same (natural) type but where more evidence is required before terms are merged.</obo:IAO_0000115>
-        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
-        <obo:IAO_0000233>#40</obo:IAO_0000233>
-        <obo:IAO_0000234>VFB</obo:IAO_0000234>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-21T16:43:39Z</oboInOwl:creation_date>
-        <rdfs:comment>Edges asserting this should be annotated with to record evidence supporting the assertion and its provenance.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">may be identical to</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A annotation relationship between two terms in an ontology that may refer to the same (natural) type but where more evidence is required before terms are merged.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">David Osumi-Sutherland</obo:IAO_0000117>
+        <obo:IAO_0000233 xml:lang="en">#40</obo:IAO_0000233>
+        <obo:IAO_0000234 xml:lang="en">VFB</obo:IAO_0000234>
+        <rdfs:comment xml:lang="en">Edges asserting this should be annotated with to record evidence supporting the assertion and its provenance.</rdfs:comment>
         <rdfs:label xml:lang="en">may be identical to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -497,6 +502,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0006012 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0006012">
+        <obo:IAO_0000111 xml:lang="en">scheduled for obsoletion on or after</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Used when the class or object is scheduled for obsoletion/deprecation on or after a particular date.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Chris Mungall, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000233 xml:lang="en">https://github.com/geneontology/go-ontology/issues/15532</obo:IAO_0000233>
@@ -662,6 +668,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:label xml:lang="en">data item</rdfs:label>
     </owl:Class>
@@ -671,6 +678,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
     </owl:Class>
@@ -711,6 +719,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/IAO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
+        <obo:IAO_0000111 xml:lang="en">data about an ontology part</obo:IAO_0000111>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">Data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:Alan Ruttenberg</obo:IAO_0000117>
@@ -758,11 +767,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are &quot;natural kinds&quot; and the latter arbitrary collections of entities.</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A denotator type indicates how a term should be interpreted from an ontological perspective.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barry Smith, Werner Ceusters</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+        <obo:IAO_0000112 xml:lang="en">The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are &quot;natural kinds&quot; and the latter arbitrary collections of entities.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A denotator type indicates how a term should be interpreted from an ontological perspective.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Barry Smith, Werner Ceusters</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">denotator type</rdfs:label>
     </owl:Class>
     
 
@@ -771,12 +780,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_8000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
-        <obo:IAO_0000116>I have placed this under &apos;data about an ontology part&apos;, but this can be discussed. I think this is OK if &apos;part&apos; is interpreted reflexively, as an ontology module is the whole ontology rather than part of it.</obo:IAO_0000116>
-        <obo:IAO_0000118>ontology file</obo:IAO_0000118>
-        <obo:IAO_0000232>This class and it&apos;s subclasses are applied to OWL ontologies. Using an rdf:type triple will result in problems with OWL-DL. I propose that dcterms:type is instead used to connect an ontology URI with a class from this hierarchy. The class hierarchy is not disjoint, so multiple assertions can be made about a single ontology.</obo:IAO_0000232>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-20T20:55:03Z</oboInOwl:creation_date>
-        <rdfs:label>ontology module</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">I have placed this under &apos;data about an ontology part&apos;, but this can be discussed. I think this is OK if &apos;part&apos; is interpreted reflexively, as an ontology module is the whole ontology rather than part of it.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">ontology file</obo:IAO_0000118>
+        <obo:IAO_0000232 xml:lang="en">This class and it&apos;s subclasses are applied to OWL ontologies. Using an rdf:type triple will result in problems with OWL-DL. I propose that dcterms:type is instead used to connect an ontology URI with a class from this hierarchy. The class hierarchy is not disjoint, so multiple assertions can be made about a single ontology.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">ontology module</rdfs:label>
     </owl:Class>
     
 
