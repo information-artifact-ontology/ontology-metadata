@@ -33,7 +33,7 @@ build:
 #
 # We use the official development version of ROBOT
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.4.1/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
 
 ROBOT := java -jar build/robot.jar
 
@@ -46,6 +46,7 @@ omo.owl: src/ontology/omo-edit.owl | build/robot.jar
 	$(ROBOT) reason \
 	--input $< \
 	--reasoner HermiT \
+	--exclude-tautologies all \
 	annotate \
 	--ontology-iri "$(OBO)/omo.owl" \
 	--version-iri "$(OBO)/omo/$(TODAY)/omo.owl" \
