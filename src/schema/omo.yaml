@@ -1,0 +1,159 @@
+id: http://purl.obolibrary.org/obo/omo/schema
+name: omo-schema
+title: Ontology Metadata Ontology Schema
+description: >-
+  Example schema for ontology metadata
+license: https://creativecommons.org/publicdomain/zero/1.0/
+version: 0.0.1
+
+default_curi_maps:
+  - obo_context
+  - semweb_context
+  
+prefixes:
+  omoschema: http://purl.obolibrary.org/obo/schema/
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  OIO: http://www.geneontology.org/formats/oboInOwl#
+  dcterms: http://purl.org/dc/terms/
+  biolinkml: https://w3id.org/biolink/biolinkml/
+  
+default_prefix: omoschema
+default_range: string
+
+imports:
+  - biolinkml:types
+  
+classes:
+
+  ontology element:
+    description: >-
+      Any component of an ontology
+
+  ontology:
+    is_a: ontology element
+    description: >-
+      An OWL ontology
+      
+  term:
+    abstract: true
+    aliases:
+      - entity
+      - concept
+    is_a: ontology element
+    description: >-
+      Any named entity in an ontology. May be a class, individual, property
+    slots:
+      - iri
+      - label
+    close_mappings:
+      - skos:Concept
+
+  named class:
+    aliases:
+      - class
+    is_a: term
+    description: >-
+      An OWL class
+    class_uri: owl:Class
+      
+  property:
+    is_a: term
+    description: >-
+      An RDF property
+    class_uri: rdf:Property
+      
+  object property:
+    is_a: property
+    description: >-
+      An RDF property
+    class_uri: rdf:Property
+      
+  annotation property:
+    is_a: property
+    description: >-
+      An OWL annotation property
+    class_uri: owl:AnnotationProperty
+
+  named individual:
+    aliases:
+      - instance
+    is_a: term
+    description: >-
+      A term that is an individual
+    class_uri: owl:NamedIndividual
+
+  subset:
+    is_a: ontology element
+  
+
+slots:
+
+  iri:
+    identifier: true
+    description: >-
+      CURIE or URI
+
+  annotation property:
+    mixin: true
+    
+  label:
+    mixins:
+      - annotation property
+    slot_uri: rdfs:label
+    required: true
+    multivalued: false
+
+  definition:
+    mixins:
+      - annotation property
+    slot_uri: IAO:0000115
+    range: narrative text
+    multivalued: false
+
+  see also:
+    mixins:
+      - annotation property
+    slot_uri: rdfs:seeAlso
+    multivalued: true
+
+  synonym:
+    mixins:
+      - annotation property
+    slot_uri: OIO:hasSynonym
+    range: label type
+    multivalued: true
+
+  exact synonym:
+    is_a: synonym
+    slot_uri: OIO:hasExactSynonym
+
+  broad synonym:
+    is_a: synonym
+    slot_uri: OIO:hasBroadSynonym
+
+  narrow synonym:
+    is_a: synonym
+    slot_uri: OIO:hasNarrowSynonym
+
+  related synonym:
+    is_a: synonym
+    slot_uri: OIO:hasRelatedSynonym
+
+types:
+  iri type:
+    typeof: uriorcurie
+    description: >-
+      An IRI
+
+  label type:
+    typeof: string
+    description: >-
+      A string that provides a human-readable name for an entity
+      
+  narrative text:
+    typeof: string
+    description: >-
+      A string that provides a human-readable description of something
+
+  
