@@ -544,7 +544,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/OMO_0001000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0001000">
-        <obo:IAO_0000115>This is an annotation used on an object property to indicate its logical characterstic beyond what is possible in OWL.</obo:IAO_0000115>
+        <obo:IAO_0000115>This is an annotation used on an object property to indicate a logical characterstic beyond what is possible in OWL.</obo:IAO_0000115>
         <obo:IAO_0000119>OBO Operations call</obo:IAO_0000119>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>logical characteristic of object property</rdfs:label>
