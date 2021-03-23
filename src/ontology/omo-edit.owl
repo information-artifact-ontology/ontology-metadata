@@ -185,12 +185,15 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</obo:IAO_0000115>
+        <obo:IAO_0000117>OBO Operations call</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <oboInOwl:hasExactSynonym>has synonym</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">alternative term</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -336,6 +339,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
         <obo:IAO_0000115 xml:lang="en">Use boolean value xsd:true to indicate that the property is an antisymmetric property</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">antisymmetric property</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OMO_0001000"/>
     </owl:AnnotationProperty>
     
 
@@ -537,6 +541,17 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMO_0001000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0001000">
+        <obo:IAO_0000115>This is an annotation used on an object property to indicate its logical characterstic beyond what is possible in OWL.</obo:IAO_0000115>
+        <obo:IAO_0000119>OBO Operations call</obo:IAO_0000119>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>logical characteristic of object property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
@@ -642,6 +657,54 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <obo:IAO_0000115>Information artifact that links an ontology term to a term in language that, within some specified publication or discipline, has a broader set of referents then the ontology term.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/18</rdfs:seeAlso>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>Information artifact that links an ontology term to a term in language that, within some specified publication, has referents that completely correspond to the referents of the ontology term.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</rdfs:seeAlso>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <obo:IAO_0000115>Information artefact that links an ontology term to a term in language that, within some specified publication or discipline, has a narrower set of referents than the ontology term.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label xml:lang="en">has narrow synonym</rdfs:label>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/19</rdfs:seeAlso>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <obo:IAO_0000115>Information artefact that links an ontology term to a term in language that, within some specified publication or discipline, has a largely but not completely overlapping set of referents to the ontology term.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label xml:lang="en">has related synonym</rdfs:label>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
