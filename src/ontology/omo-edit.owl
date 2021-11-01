@@ -1263,6 +1263,7 @@ No imports</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OMO_0001000 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OMO_0001000">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>out of scope</rdfs:label>
     </owl:NamedIndividual>
