@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/omo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/omo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/omo/omo-base.owl#"
+     xml:base="http://purl.obolibrary.org/obo/omo/omo-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,8 +11,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2022-04-27/omo.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo/omo-base.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2022-04-27/omo-base.owl"/>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
@@ -51,6 +51,7 @@
         <dc:contributor xml:lang="en">Yongqun (Oliver) He</dc:contributor>
         <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
         <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-27</owl:versionInfo>
     </owl:Ontology>
