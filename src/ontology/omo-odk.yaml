@@ -1,0 +1,29 @@
+id: omo
+title: "OBO Metadata Ontology"
+github_org: information-artifact-ontology
+repo: ontology-metadata
+git_main_branch: master
+edit_format: owl
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts: 
+  - full
+primary_release: full
+documentation:
+  documentation_system: mkdocs
+robot_java_args: '-Xmx12G'
+namespaces:
+  - http://purl.obolibrary.org/obo/OMO_
+  - http://purl.obolibrary.org/obo/IAO_
+  - http://www.geneontology.org/formats/oboInOwl#
+robot_report:
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  custom_profile : True
+  report_on :
+    - omo-full.owl
+  custom_sparql_exports : 
+    - basic-report

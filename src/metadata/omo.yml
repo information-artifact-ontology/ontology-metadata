@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/omo
+
+idspace: OMO
+base_url: /obo/omo
+
+products:
+- omo.owl: https://raw.githubusercontent.com/information-artifact-ontology/ontology-metadata/master/omo.owl
+- omo.obo: https://raw.githubusercontent.com/information-artifact-ontology/ontology-metadata/master/omo.obo
+
+term_browser: ontobee
+example_terms:
+- OMO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/information-artifact-ontology/ontology-metadata/v
+
+- prefix: /tracker/
+  replacement: https://github.com/information-artifact-ontology/ontology-metadata/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/OMO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/information-artifact-ontology/ontology-metadata/master/
