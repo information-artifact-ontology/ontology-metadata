@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/{{ id }}.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/{{ id }}.owl>
+
+{%if description is defined %}Annotation(dcterms:description "{{ description }}"){%endif%}
+{%if title is defined %}Annotation(dcterms:title "{{ title }}"){%endif%}
+{%if license is defined %}Annotation(dcterms:license <{{license.url}}>){%endif%}
+{%if contact is defined %}{%if contact.orcid is defined %}Annotation(dcterms:creator <https://orcid.org/{{ contact.orcid }}>){%endif%}
+{%if contact.label is defined %}Annotation(dce:creator "{{ contact.label }}"){%endif%}
+{%if contact.github is defined %}Annotation(dce:creator <https://github.com/{{contact.github}}>){%endif%}{%endif%}
+{%if homepage is defined %}Annotation(rdfs:seeAlso <{{ homepage }}>){%endif%}
+{%if tracker is defined %}Annotation(rdfs:seeAlso <{{ tracker }}>){%endif%}
+{%if repository is defined %}Annotation(rdfs:seeAlso <{{ repository }}>){%endif%}
+{%if publications is defined %}
+{%for p in publications %}
+Annotation(dcterms:bibliographicCitation <{{p.id}}>)
+{%endfor%}
+{%endif%}
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)
