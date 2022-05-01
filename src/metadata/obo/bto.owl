@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/bto.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/bto.owl>
+
+Annotation(dcterms:description "A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.")
+Annotation(dcterms:title "BRENDA tissue / enzyme source")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-9117-7909>)
+Annotation(dce:creator "Christian-Alexander Dudek")
+Annotation(dce:creator <https://github.com/chdudek>)
+Annotation(rdfs:seeAlso <http://www.brenda-enzymes.org>)
+Annotation(rdfs:seeAlso <https://github.com/BRENDA-Enzymes/BTO/issues>)
+Annotation(rdfs:seeAlso <https://github.com/BRENDA-Enzymes/BTO>)
+
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/21030441>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

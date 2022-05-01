@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/obib.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/obib.owl>
+
+Annotation(dcterms:description "An ontology built for annotation and modeling of biobank repository and biobanking administration")
+Annotation(dcterms:title "Ontology for Biobanking")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-2999-0103>)
+Annotation(dce:creator "Jie Zheng")
+Annotation(dce:creator <https://github.com/zhengj2007>)
+Annotation(rdfs:seeAlso <https://github.com/biobanking/biobanking>)
+Annotation(rdfs:seeAlso <https://github.com/biobanking/biobanking/issues>)
+Annotation(rdfs:seeAlso <https://github.com/biobanking/biobanking>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

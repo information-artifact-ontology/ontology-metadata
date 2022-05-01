@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/cvdo.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/cvdo.owl>
+
+Annotation(dcterms:description "An ontology to describe entities related to cardiovascular diseases")
+Annotation(dcterms:title "Cardiovascular Disease Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-3336-2476>)
+Annotation(dce:creator "Paul Fabry")
+Annotation(dce:creator <https://github.com/pfabry>)
+Annotation(rdfs:seeAlso <https://github.com/OpenLHS/CVDO>)
+Annotation(rdfs:seeAlso <https://github.com/OpenLHS/CVDO/issues>)
+Annotation(rdfs:seeAlso <https://github.com/OpenLHS/CVDO>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

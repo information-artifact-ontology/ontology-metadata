@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/pcl.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/pcl.owl>
+
+Annotation(dcterms:description "Cell types that are provisionally defined by experimental techniques such as single cell or single nucleus transcriptomics rather than a straightforward & coherent set of properties.")
+Annotation(dcterms:title "Provisional Cell Ontology")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-7073-9172>)
+Annotation(dce:creator "David Osumi-Sutherland")
+Annotation(dce:creator <https://github.com/dosumis>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/provisional_cell_ontology>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/provisional_cell_ontology/issues>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/provisional_cell_ontology>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

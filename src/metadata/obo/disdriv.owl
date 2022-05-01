@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/disdriv.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/disdriv.owl>
+
+Annotation(dcterms:description "Ontology for drivers and triggers of human diseases, built to classify ExO ontology exposure stressors. An application ontology. Built in collaboration with EnvO, ExO, ECTO and ChEBI.")
+Annotation(dcterms:title "Disease Drivers Ontology")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-8910-9851>)
+Annotation(dce:creator "Lynn Schriml")
+Annotation(dce:creator <https://github.com/lschriml>)
+Annotation(rdfs:seeAlso <http://www.disease-ontology.org>)
+Annotation(rdfs:seeAlso <https://github.com/DiseaseOntology/DiseaseDriversOntology/issues>)
+Annotation(rdfs:seeAlso <https://github.com/DiseaseOntology/DiseaseDriversOntology>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

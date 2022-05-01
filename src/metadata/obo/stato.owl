@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/stato.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/stato.owl>
+
+Annotation(dcterms:description "STATO is a general-purpose STATistics Ontology. Its aim is to provide coverage for processes such as statistical tests, their conditions of application, and information needed or resulting from statistical methods, such as probability distributions, variables, spread and variation metrics. STATO also covers aspects of experimental design and description of plots and graphical representations commonly used to provide visual cues of data distribution or layout and to assist review of the results.")
+Annotation(dcterms:title "The Statistical Methods Ontology")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0003-3499-8262>)
+Annotation(dce:creator "Alejandra Gonzalez-Beltran")
+Annotation(dce:creator <https://github.com/agbeltran>)
+Annotation(rdfs:seeAlso <http://stato-ontology.org/>)
+Annotation(rdfs:seeAlso <https://github.com/ISA-tools/stato/issues>)
+Annotation(rdfs:seeAlso <https://github.com/ISA-tools/stato>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

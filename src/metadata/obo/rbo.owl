@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/rbo.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/rbo.owl>
+
+Annotation(dcterms:description "RBO is an ontology for the effects of radiation on biota in terrestrial and space environments.")
+Annotation(dcterms:title "Radiation Biology Ontology")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0003-4312-9552>)
+Annotation(dce:creator "Daniel C. Berrios")
+Annotation(dce:creator <https://github.com/DanBerrios>)
+Annotation(rdfs:seeAlso <https://github.com/Radiobiology-Informatics-Consortium/RBO>)
+Annotation(rdfs:seeAlso <https://github.com/Radiobiology-Informatics-Consortium/RBO/issues>)
+Annotation(rdfs:seeAlso <https://github.com/Radiobiology-Informatics-Consortium/RBO>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

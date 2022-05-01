@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/go.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/go.owl>
+
+Annotation(dcterms:description "An ontology for describing the function of genes and gene products")
+Annotation(dcterms:title "Gene Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-6787-2901>)
+Annotation(dce:creator "Suzi Aleksander")
+Annotation(dce:creator <https://github.com/suzialeksander>)
+Annotation(rdfs:seeAlso <http://geneontology.org/>)
+Annotation(rdfs:seeAlso <https://github.com/geneontology/go-ontology/issues/>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

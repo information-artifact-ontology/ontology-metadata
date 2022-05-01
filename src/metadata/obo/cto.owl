@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/cto.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/cto.owl>
+
+Annotation(dcterms:description "The core Ontology of Clinical Trials (CTO) will serve as a structured resource integrating basic terms and concepts in the context of clinical trials. Thereby covering clinicaltrails.gov. CoreCTO will serve as a basic ontology to generate extended versions for specific applications such as annotation of variables in study documents from clinical trials.")
+Annotation(dcterms:title "CTO: Core Ontology of Clinical Trials")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-9896-3531>)
+Annotation(dce:creator "Dr. Alpha Tom Kodamullil")
+Annotation(dce:creator <https://github.com/akodamullil>)
+Annotation(rdfs:seeAlso <https://github.com/ClinicalTrialOntology/CTO/>)
+Annotation(rdfs:seeAlso <https://github.com/ClinicalTrialOntology/CTO/issues>)
+Annotation(rdfs:seeAlso <https://github.com/ClinicalTrialOntology/CTO>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)
