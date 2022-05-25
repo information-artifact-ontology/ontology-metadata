@@ -47,7 +47,7 @@ body:
   - type: textarea
     id: examples
     attributes:
-      label: Examples
+      label: Examples of use
       description: |
         Provide an example of use.
     validations:
