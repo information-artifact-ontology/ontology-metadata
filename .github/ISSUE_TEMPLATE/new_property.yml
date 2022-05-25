@@ -31,19 +31,19 @@ body:
     id: range
     attributes:
       label: What is the range of the property in question?
-      options:
-        - xsd:string
-        - xsd:double
-        - xsd:integer
-        - Class (IRI)
-        - Individual (IRI)
-        - Data Property (IRI)
-        - Object Property (IRI)
-        - Annotation Property (IRI)
-        - Any URI (IRIs, URLs, etc)
-        - other (indicate in example of use below)
-      validations:
-        required: true
+    options:
+      - xsd:string
+      - xsd:double
+      - xsd:integer
+      - Class (IRI)
+      - Individual (IRI)
+      - Data Property (IRI)
+      - Object Property (IRI)
+      - Annotation Property (IRI)
+      - Any URI (IRIs, URLs, etc)
+      - other (indicate in example of use below)
+    validations:
+      required: true
   - type: textarea
     id: examples
     attributes:
