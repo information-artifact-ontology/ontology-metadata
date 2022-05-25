@@ -1,6 +1,6 @@
 name: Request a New Property
 description: Request to add a new property to the OBO Metadata Ontology (OMO).
-title: Request for new property [NAME]
+title: Request for adding property [NAME] to OMO
 labels: [ new property ]
 body:
   - type: markdown
@@ -15,7 +15,7 @@ body:
       placeholder: ex. term editor
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: definition
     attributes:
       label: Definition of the property
@@ -70,5 +70,5 @@ body:
         - label: I believe the property is generally useful beyond my specific ontology needs.
           required: true
         - label: There is no other property in OMO that covers the same use case.
-          required: false
+          required: true
 
