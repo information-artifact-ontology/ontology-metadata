@@ -2,19 +2,25 @@ name: Request a New Property
 description: Request to add a new property to the OBO Metadata Ontology (OMO).
 title: Request for adding property [NAME] to OMO
 labels: [ new property ]
+assignees:
+  - matentzn
 body:
   - type: markdown
     attributes:
       value: |
         Use this form to add a new property to the OBO Metadata Ontology.
   - type: input
+    id: iri
+    attributes:
+      label: IRI
+      description: If the property already exists provide the full IRI here.
+      placeholder: ex. http://www.w3.org/2000/01/rdf-schema#label
+  - type: input
     id: label
     attributes:
       label: Label
       description: What should be the canonical label of your property?
       placeholder: ex. term editor
-    validations:
-      required: true
   - type: textarea
     id: definition
     attributes:
@@ -50,6 +56,15 @@ body:
       label: Examples of use
       description: |
         Provide an example of use.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation to add
+      description: |
+        Explain why this particular property should be added. If the property already exists,
+        explain why it should be re-used, and where it is imported from.
     validations:
       required: true
   - type: input
