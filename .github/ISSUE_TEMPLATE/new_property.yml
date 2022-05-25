@@ -1,6 +1,6 @@
 name: Request a New Property
 description: Request to add a new property to the OBO Metadata Ontology (OMO).
-title: Request for new property: [NAME]
+title: Request for new property [NAME]
 labels: [ new property ]
 body:
   - type: markdown
