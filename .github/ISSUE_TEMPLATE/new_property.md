@@ -1,0 +1,74 @@
+name: Request a New Property
+description: Request to add a new property to the OBO Metadata Ontology (OMO).
+title: Request for new property: [NAME]
+labels: [ new property ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to add a new property to the OBO Metadata Ontology.
+  - type: input
+    id: label
+    attributes:
+      label: Label
+      description: What should be the canonical label of your property?
+      placeholder: ex. term editor
+    validations:
+      required: true
+  - type: input
+    id: definition
+    attributes:
+      label: Definition of the property
+      description: Please provide a short definition of the property.
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent property
+      description: If there is a suitable parent property in OMO, please provide it here.
+  - type: input
+    id: range
+    attributes:
+      label: What is the range of the property in question?
+      options:
+        - xsd:string
+        - xsd:double
+        - xsd:integer
+        - Class (IRI)
+        - Individual (IRI)
+        - Data Property (IRI)
+        - Object Property (IRI)
+        - Annotation Property (IRI)
+        - Any URI (IRIs, URLs, etc)
+        - other (indicate in example of use below)
+      validations:
+        required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: |
+        Provide an example of use.
+    validations:
+      required: true
+  - type: input
+    id: contributor-orcid
+    attributes:
+      label: ORCID, ROR or Wikidata identifier of the contributor
+      description: Provide an ORCID (https://orcid.org), Wikidata (https://www.wikidata.org/) or ROR (https://ror.org/) identifier for attribution and provenance purposes.
+      placeholder: e.g. https://orcid.org/0000-0003-4423-4370
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: OMO Checklist
+      description: |
+        To be considered for inclusion in OMO, a new property must meet certain requirements. To ensure you are aware of some of its key points, please review the checklist below.
+      options:
+        - label: I believe the property is generally useful beyond my specific ontology needs.
+          required: true
+        - label: There is no other property in OMO that covers the same use case.
+          required: false
+
