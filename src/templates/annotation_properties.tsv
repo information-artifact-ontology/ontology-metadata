@@ -1,0 +1,2 @@
+relation id (required)	type	label (required)	definition (required)	parent property	contributon ORCID (required)	Date created (required)	example of use	term tracker item
+ID	TYPE	AT rdfs:label^^xsd:string	AT IAO:0000115^^xsd:string	SP %	AI dc:contributor	AT dc:created^^xsd:date	AT IAO:0000112^^xsd:string	AI IAO:0000233
