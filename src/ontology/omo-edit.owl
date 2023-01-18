@@ -581,6 +581,68 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMO_0003000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has abbreviation</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003001">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has ambiguous synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003002">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has dubious synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003003">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has layperson synonym</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003004 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003004">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has plural form</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003005">
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>has UK spelling synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
@@ -737,6 +799,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:label xml:lang="en">has related synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
+        <rdfs:label>has synonym type</rdfs:label>
     </owl:AnnotationProperty>
     
 
