@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2022-04-27
+data-version: releases/2023-02-19
 ontology: omo
 property_value: defaultLanguage "en" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Adam Goldstein" xsd:string
@@ -40,7 +40,7 @@ property_value: http://purl.org/dc/elements/1.1/contributor "Yongqun (Oliver) He
 property_value: http://purl.org/dc/elements/1.1/description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "OBO Metadata Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2022-04-27" xsd:string
+property_value: owl:versionInfo "2023-02-19" xsd:string
 
 [Term]
 id: IAO:0000027
@@ -63,7 +63,7 @@ property_value: IAO:0000111 "curation status specification" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)" xsd:string
 property_value: IAO:0000117 "PERSON:Bill Bug" xsd:string
-property_value: IAO:0000119 GROUP:OBI:<http://purl.obolibrary.org/obo/obi> xsd:string
+property_value: IAO:0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>" xsd:string
 property_value: IAO:0000119 "OBI_0000266" xsd:string
 
 [Term]
@@ -248,7 +248,7 @@ name: obo basic subset ontology module
 def: "A subset ontology that is designed for basic applications to continue to make certain simplifying assumptions; many of these simplifying assumptions were based on the initial version of the Gene Ontology, and have become enshrined in many popular and useful tools such as term enrichment tools.\n\nExamples of such assumptions include: traversing the ontology graph ignoring relationship types using a naive algorithm will not lead to cycles (i.e. the ontology is a DAG); every referenced term is declared in the ontology (i.e. there are no dangling clauses).\n\nAn ontology is OBO Basic if and only if it has the following characteristics:\nDAG\nUnidirectional\nNo Dangling Clauses\nFully Asserted\nFully Labeled\nNo equivalence axioms\nSingly labeled edges\nNo qualifier lists\nNo disjointness axioms\nNo owl-axioms header\nNo imports" []
 is_a: IAO:8000017 ! ontology module subsetted by expressivity
 property_value: IAO:0000111 "obo basic subset ontology module" xsd:string
-property_value: seeAlso "6.2"
+property_value: seeAlso 6.2
 
 [Term]
 id: IAO:8000019
