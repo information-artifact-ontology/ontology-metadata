@@ -10,6 +10,6 @@ SELECT ?term ?xl ?y ?yl ?z ?zl WHERE {
   ?term rdfs:subClassOf ?z .
   ?z rdfs:label ?zl .
   
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/OMO_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/OMO_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/IAO_") || STRSTARTS(str(?term), "http://www.geneontology.org/formats/oboInOwl#")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/OMO_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/IAO_") || STRSTARTS(str(?term), "http://www.geneontology.org/formats/oboInOwl#")))
 }
 
