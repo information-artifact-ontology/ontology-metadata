@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/cdno.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/cdno.owl>
+
+Annotation(dcterms:description "CDNO provides structured terminologies to describe nutritional attributes of material entities that contribute to human diet.")
+Annotation(dcterms:title "Compositional Dietary Nutrition Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-7696-731X>)
+Annotation(dce:creator "Liliana Andres Hernandez")
+Annotation(dce:creator <https://github.com/LilyAndres>)
+Annotation(rdfs:seeAlso <https://github.com/Southern-Cross-Plant-Science/cdno>)
+Annotation(rdfs:seeAlso <https://github.com/Southern-Cross-Plant-Science/cdno/issues>)
+Annotation(rdfs:seeAlso <https://github.com/Southern-Cross-Plant-Science/cdno>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

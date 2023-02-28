@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/agro.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/agro.owl>
+
+Annotation(dcterms:description "Ontology of agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments")
+Annotation(dcterms:title "Agronomy Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-8461-9745>)
+Annotation(dce:creator "Marie-Angélique Laporte")
+Annotation(dce:creator <https://github.com/marieALaporte>)
+Annotation(rdfs:seeAlso <https://github.com/AgriculturalSemantics/agro>)
+Annotation(rdfs:seeAlso <https://github.com/AgriculturalSemantics/agro/issues/>)
+Annotation(rdfs:seeAlso <https://github.com/AgriculturalSemantics/agro>)
+
+
+Annotation(dcterms:bibliographicCitation <http://ceur-ws.org/Vol-1747/IT205_ICBO2016.pdf>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

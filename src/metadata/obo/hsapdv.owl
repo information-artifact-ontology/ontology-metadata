@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/hsapdv.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/hsapdv.owl>
+
+Annotation(dcterms:description "Life cycle stages for Human")
+Annotation(dcterms:title "Human Developmental Stages")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-9415-5104>)
+Annotation(dce:creator "Frédéric Bastian")
+Annotation(dce:creator <https://github.com/fbastian>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/developmental-stage-ontologies/wiki/HsapDv>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/developmental-stage-ontologies/issues>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/developmental-stage-ontologies>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

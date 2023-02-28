@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/fbdv.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/fbdv.owl>
+
+Annotation(dcterms:description "A structured controlled vocabulary of the development of Drosophila melanogaster.")
+Annotation(dcterms:title "Drosophila development")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-1373-1705>)
+Annotation(dce:creator "Clare Pilgrim")
+Annotation(dce:creator <https://github.com/Clare72>)
+Annotation(rdfs:seeAlso <http://purl.obolibrary.org/obo/fbdv>)
+Annotation(rdfs:seeAlso <http://purl.obolibrary.org/obo/fbdv/tracker>)
+Annotation(rdfs:seeAlso <https://github.com/FlyBase/drosophila-developmental-ontology>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

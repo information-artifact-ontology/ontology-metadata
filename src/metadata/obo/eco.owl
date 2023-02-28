@@ -1,0 +1,34 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/eco.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/eco.owl>
+
+Annotation(dcterms:description "An ontology for experimental and other evidence statements.")
+Annotation(dcterms:title "Evidence ontology")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-7628-5565>)
+Annotation(dce:creator "Michelle Giglio")
+Annotation(dce:creator <https://github.com/mgiglio99>)
+Annotation(rdfs:seeAlso <https://github.com/evidenceontology/evidenceontology/>)
+Annotation(rdfs:seeAlso <https://github.com/evidenceontology/evidenceontology/issues>)
+Annotation(rdfs:seeAlso <https://github.com/evidenceontology/evidenceontology>)
+
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/30407590>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/25052702>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

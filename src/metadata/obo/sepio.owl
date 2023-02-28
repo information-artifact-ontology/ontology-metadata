@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/sepio.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/sepio.owl>
+
+Annotation(dcterms:description "An ontology for representing the provenance of scientific claims and the evidence that supports them.")
+Annotation(dcterms:title "Scientific Evidence and Provenance Information Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-1048-5019>)
+Annotation(dce:creator "Matthew Brush")
+Annotation(dce:creator <https://github.com/mbrush>)
+Annotation(rdfs:seeAlso <https://github.com/monarch-initiative/SEPIO-ontology>)
+Annotation(rdfs:seeAlso <https://github.com/monarch-initiative/SEPIO-ontology/issues>)
+Annotation(rdfs:seeAlso <https://github.com/monarch-initiative/SEPIO-ontology>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

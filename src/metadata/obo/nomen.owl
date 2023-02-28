@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/nomen.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/nomen.owl>
+
+Annotation(dcterms:description "NOMEN is a nomenclatural ontology for biological names (not concepts).  It encodes the goverened rules of nomenclature.")
+Annotation(dcterms:title "NOMEN - A nomenclatural ontology for biological names")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-5640-5491>)
+Annotation(dce:creator "Matt Yoder")
+Annotation(dce:creator <https://github.com/mjy>)
+Annotation(rdfs:seeAlso <https://github.com/SpeciesFileGroup/nomen>)
+Annotation(rdfs:seeAlso <https://github.com/SpeciesFileGroup/nomen/issues>)
+Annotation(rdfs:seeAlso <https://github.com/SpeciesFileGroup/nomen>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

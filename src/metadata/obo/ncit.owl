@@ -1,0 +1,28 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/ncit.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/ncit.owl>
+
+Annotation(dcterms:description "NCI Thesaurus (NCIt)is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. The NCIt OBO Edition aims to increase integration of the NCIt with OBO Library ontologies. NCIt OBO Edition releases should be considered experimental.")
+Annotation(dcterms:title "NCI Thesaurus OBO Edition")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-9114-8737>)
+Annotation(dce:creator "Melissa Haendel")
+Annotation(dce:creator <https://github.com/mellybelly>)
+Annotation(rdfs:seeAlso <https://github.com/NCI-Thesaurus/thesaurus-obo-edition>)
+Annotation(rdfs:seeAlso <https://github.com/NCI-Thesaurus/thesaurus-obo-edition/issues>)
+Annotation(rdfs:seeAlso <https://github.com/NCI-Thesaurus/thesaurus-obo-edition>)
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

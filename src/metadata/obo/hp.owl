@@ -1,0 +1,38 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/hp.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/hp.owl>
+
+Annotation(dcterms:description "A structured and controlled vocabulary for the phenotypic features encountered in human hereditary and other disease.")
+Annotation(dcterms:title "Human Phenotype Ontology")
+Annotation(dcterms:license <https://hpo.jax.org/app/license>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-5316-1399>)
+Annotation(dce:creator "Sebastian Koehler")
+Annotation(dce:creator <https://github.com/drseb>)
+Annotation(rdfs:seeAlso <http://www.human-phenotype-ontology.org/>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/human-phenotype-ontology/issues/>)
+Annotation(rdfs:seeAlso <https://github.com/obophenotype/human-phenotype-ontology>)
+
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/18950739>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/26119816>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/24217912>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/30476213>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

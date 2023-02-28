@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/mondo.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/mondo.owl>
+
+Annotation(dcterms:description "A semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology.")
+Annotation(dcterms:title "Mondo Disease Ontology")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0001-5208-3432>)
+Annotation(dce:creator "Nicole Vasilevsky")
+Annotation(dce:creator <https://github.com/nicolevasilevsky>)
+Annotation(rdfs:seeAlso <https://monarch-initiative.github.io/mondo>)
+Annotation(rdfs:seeAlso <https://github.com/monarch-initiative/mondo/issues>)
+Annotation(rdfs:seeAlso <https://github.com/monarch-initiative/mondo>)
+
+
+Annotation(dcterms:bibliographicCitation <https://www.medrxiv.org/content/10.1101/2022.04.13.22273750>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

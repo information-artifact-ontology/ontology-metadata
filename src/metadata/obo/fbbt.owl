@@ -1,0 +1,38 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/fbbt.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/fbbt.owl>
+
+Annotation(dcterms:description "An ontology representing the gross anatomy of Drosophila melanogaster.")
+Annotation(dcterms:title "Drosophila gross anatomy")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/3.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-1373-1705>)
+Annotation(dce:creator "Clare Pilgrim")
+Annotation(dce:creator <https://github.com/Clare72>)
+Annotation(rdfs:seeAlso <http://purl.obolibrary.org/obo/fbbt>)
+Annotation(rdfs:seeAlso <http://purl.obolibrary.org/obo/fbbt/tracker>)
+Annotation(rdfs:seeAlso <https://github.com/FlyBase/drosophila-anatomy-developmental-ontology>)
+
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/24138933>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/22402613>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/22180411>)
+
+Annotation(dcterms:bibliographicCitation <https://www.ncbi.nlm.nih.gov/pubmed/16381917>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)

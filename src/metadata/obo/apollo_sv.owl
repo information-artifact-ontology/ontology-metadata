@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/omo/metadata/apollo_sv.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/omo/metadata/apollo_sv.owl>
+
+Annotation(dcterms:description "Defines terms and relations necessary for interoperation between epidemic models and public health application software that interface with these models")
+Annotation(dcterms:title "Apollo Structured Vocabulary")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:creator <https://orcid.org/0000-0002-9881-1017>)
+Annotation(dce:creator "William Hogan")
+Annotation(dce:creator <https://github.com/hoganwr>)
+Annotation(rdfs:seeAlso <https://github.com/ApolloDev/apollo-sv>)
+Annotation(rdfs:seeAlso <https://github.com/ApolloDev/apollo-sv/issues>)
+Annotation(rdfs:seeAlso <https://github.com/ApolloDev/apollo-sv>)
+
+
+Annotation(dcterms:bibliographicCitation <https://doi.org/10.1186/s13326-016-0092-y>)
+
+
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+)
