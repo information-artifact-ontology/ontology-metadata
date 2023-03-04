@@ -578,7 +578,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
         <rdfs:label>defined by construct</rdfs:label>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/contributor -->
@@ -738,7 +738,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
-
     
 
 
