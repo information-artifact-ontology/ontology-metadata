@@ -1,0 +1,11 @@
+#license: "https://creativecommons.org/publicdomain/zero/1.0/"
+#mapping_set_id: "http://purl.obolibrary.org/obo/omo/components/omo-to-external.tsv"
+#curie_map:
+#  owl: "http://www.w3.org/2002/07/owl#"
+#  OMO: "http://purl.obolibrary.org/obo/OMO_"
+#  HP_HASH: "http://purl.obolibrary.org/obo/hp#"
+subject_id	subject_label	predicate_id	object_id	object_label	notes	mapping_justification
+OMO:0003000	abbreviation	owl:equivalentProperty	HP_HASH:abbreviation	abbreviation	.	semapv:ManualMappingCuration
+OMO:0003003	layperson synonym	owl:equivalentProperty	HP_HASH:layperson	layperson	.	semapv:ManualMappingCuration
+OMO:0003004	plural form	owl:equivalentProperty	HP_HASH:plural_form	plural form	.	semapv:ManualMappingCuration
+OMO:0003005	UK spelling synonym synonym	owl:equivalentProperty	HP_HASH:uk_spelling	uk spelling	.	semapv:ManualMappingCuration
