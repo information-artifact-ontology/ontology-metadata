@@ -121,9 +121,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-02-19"
+        "val" : "2023-05-15"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-02-19/omo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-05-15/omo-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
@@ -1591,6 +1591,132 @@
         }, {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://orcid.org/0000-0002-8688-6599"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003000",
+      "lbl" : "abbreviation",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing abbreviations or initalisms"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "CHEBI:26523 (reactive oxygen species) has an exact synonym (ROS), which is of type OMO:0003000 (abbreviation)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003001",
+      "lbl" : "ambiguous synonym",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing ambiguous synonyms"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003002",
+      "lbl" : "dubious synonym",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing dubious synonyms"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003003",
+      "lbl" : "layperson synonym",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing layperson or colloquial synonyms"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "EFO:0006346 (severe cutaneous adverse reaction) has an exact synonym (scar), which is of the type OMO:0003003 (layperson synonym)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003004",
+      "lbl" : "plural form",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing pluralization synonyms"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "CHEBI:23367 (molecular entity) has an exact synonym (molecular entities), which is of the type OMO:0003004 (plural form)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003005",
+      "lbl" : "UK spelling synonym",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing UK spelling variants"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "CHEBI:16189 (sulfate) has an exact synonym (sulphate), which is of the type OMO:0003005 (UK spelling synonym)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/122"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-03-03"
         } ]
       }
     }, {
