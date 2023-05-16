@@ -7,6 +7,7 @@
 #  NCBITaxon_HASH: "http://purl.obolibrary.org/obo/ncbitaxon#"
 #  UBERON_CORE_HASH: "http://purl.obolibrary.org/obo/uberon/core#"
 #  FOVT_HASH: "http://purl.obolibrary.org/obo/fovt#misspelling"
+#  MONDO_HASH: "http://purl.obolibrary.org/obo/mondo#"
 subject_id	subject_label	predicate_id	object_id	object_label	notes	mapping_justification author_id
 OMO:0003000	abbreviation	owl:equivalentProperty	HP_HASH:abbreviation	abbreviation	.	semapv:ManualMappingCuration
 OMO:0003003	layperson synonym	owl:equivalentProperty	HP_HASH:layperson	layperson	.	semapv:ManualMappingCuration
@@ -15,4 +16,5 @@ OMO:0003005	UK spelling synonym synonym	owl:equivalentProperty	HP_HASH:uk_spelli
 OMO:0003006 misspelling	owl:equivalentProperty	NCBITaxon_HASH:misspelling	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003006 misspelling	owl:equivalentProperty	UBERON_CORE_HASH:MISSPELLING	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003006 misspelling	owl:equivalentProperty	FOVT_HASH:misspelling	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
+OMO:0003006 misspelling	owl:equivalentProperty	MONDO_HASH:MISSPELLING	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003007 misnomer	owl:equivalentProperty	NCBITaxon_HASH:misnomer	misnomer	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
