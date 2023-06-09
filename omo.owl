@@ -12,7 +12,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-05-15/omo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
@@ -52,7 +52,7 @@
         <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
         <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2023-05-15</owl:versionInfo>
+        <owl:versionInfo>2023-06-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -660,6 +660,32 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>UK spelling synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003006">
+        <obo:IAO_0000115>A synonym type for common misspellings</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/132"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
+        <rdfs:label>misspelling</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003007">
+        <obo:IAO_0000115>A synonym type for misnomers, i.e., a synonym that is not technically correct but is commonly used anyway</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/133"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
+        <rdfs:label>misnomer</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
     
