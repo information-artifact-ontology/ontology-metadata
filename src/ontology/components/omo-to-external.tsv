@@ -6,7 +6,7 @@
 #  HP_HASH: "http://purl.obolibrary.org/obo/hp#"
 #  NCBITaxon_HASH: "http://purl.obolibrary.org/obo/ncbitaxon#"
 #  UBERON_CORE_HASH: "http://purl.obolibrary.org/obo/uberon/core#"
-#  FOVT_HASH: "http://purl.obolibrary.org/obo/fovt#misspelling"
+#  FOVT_HASH: "http://purl.obolibrary.org/obo/fovt#"
 #  MONDO_HASH: "http://purl.obolibrary.org/obo/mondo#"
 subject_id	subject_label	predicate_id	object_id	object_label	notes	mapping_justification author_id
 OMO:0003000	abbreviation	owl:equivalentProperty	HP_HASH:abbreviation	abbreviation	.	semapv:ManualMappingCuration
