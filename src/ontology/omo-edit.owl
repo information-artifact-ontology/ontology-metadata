@@ -689,6 +689,34 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMO_0003008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003008">
+        <obo:IAO_0000112>MAPT, the gene that encodes the Tau protein, has a previous name DDPAC. Note: in this case, the name type is more specifically the gene symbol.</obo:IAO_0000112>
+        <obo:IAO_0000115>A synonym type for names that have been used as primary labels in the past.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/139"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-25</terms:created>
+        <rdfs:label>previous name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003009">
+        <obo:IAO_0000112>The legal name for Harvard University (https://ror.org/03vek6s52) is President and Fellows of Harvard College</obo:IAO_0000112>
+        <obo:IAO_0000115>A synonym type for the legal entity name</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/141"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-27</terms:created>
+        <rdfs:label>legal name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
