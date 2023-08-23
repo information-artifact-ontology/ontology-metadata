@@ -121,9 +121,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-28"
+        "val" : "2023-08-23"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-07-28/omo.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
@@ -468,6 +468,28 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000234",
           "val" : "https://orcid.org/0000-0001-5208-3432"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0001002",
+      "lbl" : "domain entity does not exist",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "The term was added to the ontology on the assumption it was a valid domain entity, but it turns out the entity does not exist in reality."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "This obsolesence reason should be used conservatively. For example: Obsoleting class that describes a breed of cow based on a record in an existing database, that was later retracted as faulty (breed does not exist). Do not use this term to obsolete a historic concept (that was once valid, but not anymore). "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-4142-7153"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/136"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000234",
+          "val" : "https://orcid.org/0000-0002-4142-7153"
         } ]
       }
     }, {
@@ -2056,6 +2078,10 @@
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OMO_0001000",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OMO_0001002",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
     } ]
