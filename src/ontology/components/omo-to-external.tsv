@@ -19,4 +19,4 @@ OMO:0003006 misspelling	owl:equivalentProperty	UBERON_CORE_HASH:MISSPELLING	miss
 OMO:0003006 misspelling	owl:equivalentProperty	FOVT_HASH:misspelling	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003006 misspelling	owl:equivalentProperty	MONDO_HASH:MISSPELLING	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003007 misnomer	owl:equivalentProperty	NCBITaxon_HASH:misnomer	misnomer	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
-OMO:0003011 International Nonproprietary Name	owl:equivalentProperty	CHEBI_HASH:INN	INN	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
+OMO:0003010 International Nonproprietary Name	owl:equivalentProperty	CHEBI_HASH:INN	INN	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
