@@ -19,5 +19,5 @@ OMO:0003006 misspelling	owl:equivalentProperty	UBERON_CORE_HASH:MISSPELLING	miss
 OMO:0003006 misspelling	owl:equivalentProperty	FOVT_HASH:misspelling	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003006 misspelling	owl:equivalentProperty	MONDO_HASH:MISSPELLING	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003007 misnomer	owl:equivalentProperty	NCBITaxon_HASH:misnomer	misnomer	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
-OMO:0003011 latin name	owl:equivalentProperty	UBERON_CORE_HASH:LATIN	latin name	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
-OMO:0003011 latin name	owl:equivalentProperty	UBERON_HASH:LATIN	latin name	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
+OMO:0003011 latin term	owl:equivalentProperty	UBERON_CORE_HASH:LATIN	latin term	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
+OMO:0003011 latin term	owl:equivalentProperty	UBERON_HASH:LATIN	latin term	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
