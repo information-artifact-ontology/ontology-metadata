@@ -6,6 +6,7 @@
 #  HP_HASH: "http://purl.obolibrary.org/obo/hp#"
 #  NCBITaxon_HASH: "http://purl.obolibrary.org/obo/ncbitaxon#"
 #  UBERON_CORE_HASH: "http://purl.obolibrary.org/obo/uberon/core#"
+#  UBERON_HASH: "http://purl.obolibrary.org/obo/uberon#"
 #  FOVT_HASH: "http://purl.obolibrary.org/obo/fovt#"
 #  MONDO_HASH: "http://purl.obolibrary.org/obo/mondo#"
 subject_id	subject_label	predicate_id	object_id	object_label	notes	mapping_justification author_id
@@ -18,3 +19,5 @@ OMO:0003006 misspelling	owl:equivalentProperty	UBERON_CORE_HASH:MISSPELLING	miss
 OMO:0003006 misspelling	owl:equivalentProperty	FOVT_HASH:misspelling	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003006 misspelling	owl:equivalentProperty	MONDO_HASH:MISSPELLING	misspelling	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
 OMO:0003007 misnomer	owl:equivalentProperty	NCBITaxon_HASH:misnomer	misnomer	.	semapv:ManualMappingCuration  https://orcid.org/0000-0003-4423-4370
+OMO:0003011 latin term	owl:equivalentProperty	UBERON_CORE_HASH:LATIN	latin term	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
+OMO:0003011 latin term	owl:equivalentProperty	UBERON_HASH:LATIN	latin term	.	semapv:ManualMappingCuration  https://orcid.org/0000-0002-1773-2692	
