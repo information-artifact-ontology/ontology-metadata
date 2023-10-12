@@ -12,7 +12,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo/omo-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-10-12/omo-full.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
@@ -52,7 +52,7 @@
         <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
         <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2023-08-23</owl:versionInfo>
+        <owl:versionInfo>2023-10-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -149,7 +149,7 @@ We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; 
 
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:label xml:lang="en">definition</rdfs:label>
@@ -714,6 +714,34 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-27</terms:created>
         <rdfs:label>legal name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003010 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003010">
+        <obo:IAO_0000112>CHEBI:46195 has been assigned the english International Nonproproprietary Name (INN) &quot;paracetamol&quot;. In some cases such as this one, the INN might be the same as the ontology&apos;s primary label</obo:IAO_0000112>
+        <obo:IAO_0000115>The International Nonproprietary Name (INN) is a standardize name for a pharmaceutical drug or active ingredient issued by the World Health Organization (WHO) meant to address the issues with country- or language-specific brand names. These are issued in several languages, including English, Latin, French, Russian, Spanish, Arabic, and Chinese.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/149"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-30</terms:created>
+        <rdfs:label>International Nonproprietary Name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003011 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003011">
+        <obo:IAO_0000112>nasopharynx (UBERON:0001728) has the latin name &quot;pars nasalis pharyngis</obo:IAO_0000112>
+        <obo:IAO_0000115>A synonym type for describing Latin term synonyms.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/146"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-12</terms:created>
+        <rdfs:label>latin term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
     
@@ -1592,5 +1620,5 @@ No imports</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
