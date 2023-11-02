@@ -1,5 +1,18 @@
 format-version: 1.2
-data-version: omo/releases/2023-10-12/omo-full.owl
+data-version: omo/releases/2023-11-02/omo-full.owl
+synonymtypedef: OMO:0003000 "abbreviation"
+synonymtypedef: OMO:0003001 "ambiguous synonym"
+synonymtypedef: OMO:0003002 "dubious synonym"
+synonymtypedef: OMO:0003003 "layperson synonym"
+synonymtypedef: OMO:0003004 "plural form"
+synonymtypedef: OMO:0003005 "UK spelling synonym"
+synonymtypedef: OMO:0003006 "misspelling"
+synonymtypedef: OMO:0003007 "misnomer"
+synonymtypedef: OMO:0003008 "previous name"
+synonymtypedef: OMO:0003009 "legal name"
+synonymtypedef: OMO:0003010 "International Nonproprietary Name"
+synonymtypedef: OMO:0003011 "latin term"
+synonymtypedef: OMO:0003012 "acronym"
 ontology: omo/omo-full
 property_value: defaultLanguage "en" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Adam Goldstein" xsd:string
@@ -40,7 +53,7 @@ property_value: http://purl.org/dc/elements/1.1/contributor "Yongqun (Oliver) He
 property_value: http://purl.org/dc/elements/1.1/description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "OBO Metadata Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2023-10-12" xsd:string
+property_value: owl:versionInfo "2023-11-02" xsd:string
 
 [Term]
 id: IAO:0000027
