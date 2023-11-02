@@ -121,9 +121,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-10-12"
+        "val" : "2023-11-02"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-10-12/omo.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2023-11-02/omo.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
@@ -1831,6 +1831,10 @@
         "definition" : {
           "val" : "The International Nonproprietary Name (INN) is a standardize name for a pharmaceutical drug or active ingredient issued by the World Health Organization (WHO) meant to address the issues with country- or language-specific brand names. These are issued in several languages, including English, Latin, French, Russian, Spanish, Arabic, and Chinese."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "INN"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "CHEBI:46195 has been assigned the english International Nonproproprietary Name (INN) \"paracetamol\". In some cases such as this one, the INN might be the same as the ontology's primary label"
@@ -1865,6 +1869,28 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-10-12"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003012",
+      "lbl" : "acronym",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A synonym type for describing abbreviations that are a part of the full name's words, such as initialisms or alphabetisms."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "NASA is an word acronym for the US National Aeronautics and Space Administration because the acronym is pronounced. FBI is an initialism (also known as alphabetism) for the US Federal Bureau of Investigation since the letters are pronounced one at a time. JPEG is an acronym for Joint Photographic Experts Group but does not count as a word acronym nor an initialism since it is mixed how it is pronounced."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/135"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2023-11-01"
         } ]
       }
     }, {
