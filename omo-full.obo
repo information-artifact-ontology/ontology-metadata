@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: omo/releases/2023-11-02/omo-full.owl
+data-version: omo/releases/2024-11-12/omo-full.owl
 synonymtypedef: OMO:0003000 "abbreviation"
 synonymtypedef: OMO:0003001 "ambiguous synonym"
 synonymtypedef: OMO:0003002 "dubious synonym"
@@ -13,47 +13,51 @@ synonymtypedef: OMO:0003009 "legal name"
 synonymtypedef: OMO:0003010 "International Nonproprietary Name"
 synonymtypedef: OMO:0003011 "latin term"
 synonymtypedef: OMO:0003012 "acronym"
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: omo/omo-full
-property_value: defaultLanguage "en" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Adam Goldstein" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Alan Ruttenberg" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Albert Goldfain" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Barry Smith" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Bjoern Peters" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Carlo Torniai" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Chris Mungall" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Chris Stoeckert" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Christian A. Boelling" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Darren Natale" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "David Osumi-Sutherland" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Gwen Frishkoff" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Holger Stenzhorn" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "James A. Overton" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "James Malone" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer Fostel" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Jie Zheng" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Jonathan Rees" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Larisa Soldatova" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Lawrence Hunter" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Mathias Brochhausen" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Matt Brush" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Melanie Courtot" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Michel Dumontier" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Paolo Ciccarese" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Pat Hayes" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Philippe Rocca-Serra" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Randy Dipert" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Ron Rudnicki" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Satya Sahoo" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Sivaram Arabandi" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Werner Ceusters" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "William Duncan" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "William Hogan" xsd:string
-property_value: http://purl.org/dc/elements/1.1/contributor "Yongqun (Oliver) He" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "OBO Metadata Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2023-11-02" xsd:string
+property_value: dc:contributor "Adam Goldstein" xsd:string
+property_value: dc:contributor "Alan Ruttenberg" xsd:string
+property_value: dc:contributor "Albert Goldfain" xsd:string
+property_value: dc:contributor "Barry Smith" xsd:string
+property_value: dc:contributor "Bjoern Peters" xsd:string
+property_value: dc:contributor "Carlo Torniai" xsd:string
+property_value: dc:contributor "Chris Mungall" xsd:string
+property_value: dc:contributor "Chris Stoeckert" xsd:string
+property_value: dc:contributor "Christian A. Boelling" xsd:string
+property_value: dc:contributor "Darren Natale" xsd:string
+property_value: dc:contributor "David Osumi-Sutherland" xsd:string
+property_value: dc:contributor "Gwen Frishkoff" xsd:string
+property_value: dc:contributor "Holger Stenzhorn" xsd:string
+property_value: dc:contributor "James A. Overton" xsd:string
+property_value: dc:contributor "James Malone" xsd:string
+property_value: dc:contributor "Jennifer Fostel" xsd:string
+property_value: dc:contributor "Jie Zheng" xsd:string
+property_value: dc:contributor "Jonathan Rees" xsd:string
+property_value: dc:contributor "Larisa Soldatova" xsd:string
+property_value: dc:contributor "Lawrence Hunter" xsd:string
+property_value: dc:contributor "Mathias Brochhausen" xsd:string
+property_value: dc:contributor "Matt Brush" xsd:string
+property_value: dc:contributor "Melanie Courtot" xsd:string
+property_value: dc:contributor "Michel Dumontier" xsd:string
+property_value: dc:contributor "Paolo Ciccarese" xsd:string
+property_value: dc:contributor "Pat Hayes" xsd:string
+property_value: dc:contributor "Philippe Rocca-Serra" xsd:string
+property_value: dc:contributor "Randy Dipert" xsd:string
+property_value: dc:contributor "Ron Rudnicki" xsd:string
+property_value: dc:contributor "Satya Sahoo" xsd:string
+property_value: dc:contributor "Sivaram Arabandi" xsd:string
+property_value: dc:contributor "Werner Ceusters" xsd:string
+property_value: dc:contributor "William Duncan" xsd:string
+property_value: dc:contributor "William Hogan" xsd:string
+property_value: dc:contributor "Yongqun (Oliver) He" xsd:string
+property_value: dc:description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
+property_value: dc:title "OBO Metadata Ontology" xsd:string
+property_value: owl:versionInfo "2024-11-12" xsd:string
+property_value: protege:defaultLanguage "en" xsd:string
+property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
 
 [Term]
 id: IAO:0000027
@@ -64,7 +68,6 @@ property_value: IAO:0000111 "data item" xsd:string
 [Term]
 id: IAO:0000030
 name: information content entity
-is_a: BFO:0000031
 property_value: IAO:0000111 "information content entity" xsd:string
 
 [Term]
