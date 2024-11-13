@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: omo/releases/2024-11-12/omo-full.owl
+data-version: omo/releases/2024-11-13/omo-full.owl
 synonymtypedef: OMO:0003000 "abbreviation"
 synonymtypedef: OMO:0003001 "ambiguous synonym"
 synonymtypedef: OMO:0003002 "dubious synonym"
@@ -55,7 +55,7 @@ property_value: dc:contributor "William Hogan" xsd:string
 property_value: dc:contributor "Yongqun (Oliver) He" xsd:string
 property_value: dc:description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
 property_value: dc:title "OBO Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2024-11-12" xsd:string
+property_value: owl:versionInfo "2024-11-13" xsd:string
 property_value: protege:defaultLanguage "en" xsd:string
 property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
 

@@ -121,9 +121,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-11-12"
+        "val" : "2024-11-13"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2024-11-12/omo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2024-11-13/omo-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
@@ -1946,6 +1946,29 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0004000",
+      "lbl" : "has symbol",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "A serial number such as \"12324X\"; a stop sign; a written proper name such as \"OBI"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/144"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-6523-4866"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2024-03-25"
+        } ]
+      }
+    }, {
       "id" : "http://purl.org/dc/elements/1.1/contributor",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -2047,6 +2070,29 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/18"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "has cross-reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "An annotation property that links an ontology entity or a statement to a prefixed identifier or URI."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "disease characteristic (MONDO:0021125) has cross-reference (http://www.geneontology.org/formats/oboInOwl#hasDbXref) \"NCIT:C41009\"^^xsd:string"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/123"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2024-03-18"
         } ]
       }
     }, {
