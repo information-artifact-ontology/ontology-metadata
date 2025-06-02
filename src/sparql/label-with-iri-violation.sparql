@@ -6,4 +6,3 @@ WHERE {
   FILTER (REGEX(?value, "http[s]?[:]"))
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/OMO_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/IAO_") || STRSTARTS(str(?term), "http://www.geneontology.org/formats/oboInOwl#")))
 }
-
