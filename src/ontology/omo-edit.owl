@@ -582,6 +582,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMO_0002001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002001">
+        <obo:IAO_0000112>The property is intended to be used exclusively on synonym assertions, to express that the synonym in question is the preference of a specific community. For example, one community may prefer to say call a disease &quot;A&quot; and another one &quot;B&quot; (but they are the same thing).</obo:IAO_0000112>
+        <obo:IAO_0000115>A provenance property that denotes a synonym to be the preferred one for a specific community.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/185"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-02</terms:created>
+        <rdfs:label>preferred label for community</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMO_0003000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000">
