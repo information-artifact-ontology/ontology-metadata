@@ -1398,8 +1398,11 @@ No imports</obo:IAO_0000115>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">failed exploratory term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Terms created with the expectation of being permanent should not be deprecated with this justification Terms created as placeholders should use the placeholder removed justification.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
     </owl:NamedIndividual>
     
 
@@ -1488,6 +1491,10 @@ No imports</obo:IAO_0000115>
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">placeholder removed</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A term created to temporarily stand in for a semantic purpose is no longer needed, typically due to the permanent term being defined.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This reason is also appropriate for temporary terms even if no permanent term is defined, for example if the need for the term no longer exists. If a permanent (replacement) term is defined, the deprecated term should reference the replacement with OIO:replaced_by. If no replacement is defined, it may be appropriate to reference alternative terms with OIO:consider.</obo:IAO_0000116>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1498,7 +1505,10 @@ No imports</obo:IAO_0000115>
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">terms merged</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been combined with one or more other terms to create a more encompassing (merged) term.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The deprecated term should reference the merged term with OIO:replaced_by. The replacement term should reference the original terms as sources using RO:derives_from. An editors note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">terms merged</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1509,7 +1519,10 @@ No imports</obo:IAO_0000115>
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term imported</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been replaced by a term imported from another ontology.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. The deprecated term should reference the imported term with OIO:replaced_by.</obo:IAO_0000116>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">term imported</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1520,8 +1533,11 @@ No imports</obo:IAO_0000115>
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term split</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been split into two or more new terms.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split. The deprecated term should reference the replacement terms with OIO:replaced_by.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">term split</rdfs:label>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
     </owl:NamedIndividual>
     
 
@@ -1601,6 +1617,8 @@ No imports</obo:IAO_0000115>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/77</obo:IAO_0000233>
         <obo:IAO_0000234>https://orcid.org/0000-0001-5208-3432</obo:IAO_0000234>
         <rdfs:label>out of scope</rdfs:label>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
     </owl:NamedIndividual>
     
 
