@@ -1506,7 +1506,7 @@ No imports</obo:IAO_0000115>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">terms merged</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The term has been combined with one or more other terms to create a more encompassing (merged) term.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The deprecated term should reference the merged term with OIO:replaced_by. The replacement term should reference the original terms as sources using RO:derives_from. An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">The deprecated term should reference the merged term with obo:IAO_0100001. The replacement term should reference the original terms as sources using obo:RO_0001000 (derives_from). An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
         <dc:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">terms merged</rdfs:label>
