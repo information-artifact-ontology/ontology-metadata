@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: omo/releases/2024-11-13/omo-full.owl
+data-version: omo/releases/2025-06-18/omo-full.owl
 synonymtypedef: OMO:0003000 "abbreviation"
 synonymtypedef: OMO:0003001 "ambiguous synonym"
 synonymtypedef: OMO:0003002 "dubious synonym"
@@ -49,13 +49,14 @@ property_value: dc:contributor "Randy Dipert" xsd:string
 property_value: dc:contributor "Ron Rudnicki" xsd:string
 property_value: dc:contributor "Satya Sahoo" xsd:string
 property_value: dc:contributor "Sivaram Arabandi" xsd:string
+property_value: dc:contributor "Trish Whetzel" xsd:string
 property_value: dc:contributor "Werner Ceusters" xsd:string
 property_value: dc:contributor "William Duncan" xsd:string
 property_value: dc:contributor "William Hogan" xsd:string
 property_value: dc:contributor "Yongqun (Oliver) He" xsd:string
 property_value: dc:description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
 property_value: dc:title "OBO Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2024-11-13" xsd:string
+property_value: owl:versionInfo "2025-06-18" xsd:string
 property_value: protege:defaultLanguage "en" xsd:string
 property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
 
