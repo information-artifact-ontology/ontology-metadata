@@ -100,6 +100,9 @@
         "val" : "Sivaram Arabandi"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/contributor",
+        "val" : "Trish Whetzel"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/contributor",
         "val" : "Werner Ceusters"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/contributor",
@@ -121,9 +124,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-11-13"
+        "val" : "2025-06-18"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2024-11-13/omo.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2025-06-18/omo.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
@@ -585,14 +588,23 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "definition" : {
-          "val" : "The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job"
+          "val" : "The term was initially used in an attempt to structure part of the ontology, but in retrospect failed to do a good job."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "failed exploratory term"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Terms created as placeholders with the expectation of being permanent should instead be deprecated using the \"placeholder removed\" (obo:IAO_0000226) justification."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -614,7 +626,7 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "definition" : {
-          "val" : "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"
+          "val" : "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
@@ -698,9 +710,21 @@
       "lbl" : "placeholder removed",
       "type" : "INDIVIDUAL",
       "meta" : {
+        "definition" : {
+          "val" : "The term was created to temporarily stand in for a semantic purpose, but is no longer needed, typically due to another permanent term being defined."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "placeholder removed"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "This reason is appropriate for a temporary term even if no permanent term is defined; for example if the need for the term no longer exists. If a permanent (replacement) term is defined, the deprecated term should reference the replacement with IAO:0100001. If no replacement is defined, it may be appropriate to reference alternative terms with oboInOwl:consider."
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -708,12 +732,21 @@
       "lbl" : "terms merged",
       "type" : "INDIVIDUAL",
       "meta" : {
+        "definition" : {
+          "val" : "The term has been combined with one or more other terms to create a more encompassing (merged) term."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "terms merged"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "An editor note should explain what were the merged terms and the reason for the merge."
+          "val" : "The deprecated term should reference the merged term with obo:IAO_0100001. The replacement term should reference the original terms as sources using obo:RO_0001000 (derives_from). An editor note should explain what were the merged terms and the reason for the merge."
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -721,12 +754,21 @@
       "lbl" : "term imported",
       "type" : "INDIVIDUAL",
       "meta" : {
+        "definition" : {
+          "val" : "The term has been replaced by a term imported from another ontology."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "term imported"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use."
+          "val" : "This is to be used when the original term has been replaced by a term imported from an other ontology. The deprecated term should reference the imported term with obo:IAO_0100001."
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -734,12 +776,21 @@
       "lbl" : "term split",
       "type" : "INDIVIDUAL",
       "meta" : {
+        "definition" : {
+          "val" : "The term has been split into two or more new terms."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "term split"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created."
+          "val" : "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split. The deprecated term should reference the replacement terms with obo:IAO_0100001."
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -847,7 +898,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "This obsolesence reason should be used conservatively. Typical valid examples are: un-necessary grouping classes in disease ontologies, a phenotype term added on the assumption it was a disease."
+          "val" : "This obsolesence reason should be used conservatively. Typical valid examples in disease ontologies are: unnecessary class grouping; mistaked creation of a disease associated to a phenotype."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0001-5208-3432"
@@ -857,6 +908,12 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000234",
           "val" : "https://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0001-6875-5360"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
         } ]
       }
     }, {
@@ -1652,6 +1709,29 @@
         }, {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://orcid.org/0000-0002-8688-6599"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0002001",
+      "lbl" : "preferred label for community",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "A provenance property that denotes a synonym to be the preferred one for a specific community."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The property is intended to be used exclusively on synonym assertions, to express that the synonym in question is the preference of a specific community. For example, one community may prefer to say call a disease \"A\" and another one \"B\" (but they are the same thing)."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/185"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-7356-1779"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2025-06-02"
         } ]
       }
     }, {
