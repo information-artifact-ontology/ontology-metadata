@@ -240,7 +240,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
         <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">the URL for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A URL for a request or discussion of an ontology term.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
