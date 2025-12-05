@@ -600,7 +600,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000">
         <obo:IAO_0000112>CHEBI:26523 (reactive oxygen species) has an exact synonym (ROS), which is of type OMO:0003000 (abbreviation)</obo:IAO_0000112>
-        <obo:IAO_0000115>A synonym type for describing abbreviations or initalisms</obo:IAO_0000115>
+        <obo:IAO_0000115>A synonym type for describing abbreviations or initialisms</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
