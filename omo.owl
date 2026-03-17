@@ -12,7 +12,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2025-06-18/omo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
@@ -53,7 +53,7 @@
         <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
         <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2025-06-18</owl:versionInfo>
+        <owl:versionInfo>2026-03-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -242,13 +242,14 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
         <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A URL for a request or discussion of an ontology term.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </owl:AnnotationProperty>
     
 
@@ -601,7 +602,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000">
         <obo:IAO_0000112>CHEBI:26523 (reactive oxygen species) has an exact synonym (ROS), which is of type OMO:0003000 (abbreviation)</obo:IAO_0000112>
-        <obo:IAO_0000115>A synonym type for describing abbreviations or initalisms</obo:IAO_0000115>
+        <obo:IAO_0000115>A synonym type for describing abbreviations or initialisms</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
@@ -772,6 +773,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-01</terms:created>
         <rdfs:label>acronym</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMO_0003014 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003014">
+        <obo:IAO_0000112>The Developing Mouse Brain Atlas Ontology (DBMA) ontology uses part-of in its hierarchy, so this would correspond to the following turtle: `&lt;https://purl.brain-bican.org/ontology/dmbao/dmbao.owl&gt; a owl:Ontology; OMO:0003014 rdfs:subClassOf, BFO:0000050`.</obo:IAO_0000112>
+        <obo:IAO_0000115>Relates an ontology to predicates/properties that should be used by user interfaces to render the hierarchical structure of the ontology. Typically, this is rdfs:subClassOf, but in ontologies that are partonomies, this might also include BFO:0000050 (part of). Tools like OLS can use predicates annotated with this property for rendering the ontology class hierarchy. There can be more than one hierarchical property. In the absence of any, it should be assumed that it is rdfs:subClassOf.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/IAO/issues/292"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-17</terms:created>
+        <rdfs:label>has ontology hierarchical property</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1012,8 +1026,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">data entity</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">data entity</rdfs:label>
     </owl:Class>
     
 

@@ -124,18 +124,18 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-06-18"
+        "val" : "2026-03-16"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2025-06-18/omo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
-      "lbl" : "data item",
+      "lbl" : "data entity",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "data item"
+          "val" : "data entity"
         } ]
       }
     }, {
@@ -1203,7 +1203,7 @@
       "propertyType" : "ANNOTATION",
       "meta" : {
         "definition" : {
-          "val" : "An IRI or similar locator for a request or discussion of an ontology term."
+          "val" : "A URL for a request or discussion of an ontology term."
         },
         "comments" : [ "The 'tracker item' can associate a tracker with a specific ontology term." ],
         "basicPropertyValues" : [ {
@@ -1211,7 +1211,7 @@
           "val" : "term tracker item"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
+          "val" : "the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
@@ -1741,7 +1741,7 @@
       "propertyType" : "ANNOTATION",
       "meta" : {
         "definition" : {
-          "val" : "A synonym type for describing abbreviations or initalisms"
+          "val" : "A synonym type for describing abbreviations or initialisms"
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
@@ -2023,6 +2023,29 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-11-01"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003014",
+      "lbl" : "has ontology hierarchical property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Relates an ontology to predicates/properties that should be used by user interfaces to render the hierarchical structure of the ontology. Typically, this is rdfs:subClassOf, but in ontologies that are partonomies, this might also include BFO:0000050 (part of). Tools like OLS can use predicates annotated with this property for rendering the ontology class hierarchy. There can be more than one hierarchical property. In the absence of any, it should be assumed that it is rdfs:subClassOf."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The Developing Mouse Brain Atlas Ontology (DBMA) ontology uses part-of in its hierarchy, so this would correspond to the following turtle: `<https://purl.brain-bican.org/ontology/dmbao/dmbao.owl> a owl:Ontology; OMO:0003014 rdfs:subClassOf, BFO:0000050`."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/IAO/issues/292"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/created",
+          "val" : "2025-09-17"
         } ]
       }
     }, {
