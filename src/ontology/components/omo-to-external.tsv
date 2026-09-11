@@ -19,5 +19,5 @@ OMO:0003006	misspelling	owl:equivalentProperty	obo:ncbitaxon#misspelling	misspel
 OMO:0003006	misspelling	owl:equivalentProperty	obo:uberon/core#MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
 OMO:0003007	misnomer	owl:equivalentProperty	obo:ncbitaxon#misnomer	misnomer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
 OMO:0003010	International Nonproprietary Name	owl:equivalentProperty	obo:chebi#INN	INN	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003011	latin term	owl:equivalentProperty	obo:uberon#LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
-OMO:0003011	latin term	owl:equivalentProperty	obo:uberon/core#LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
+OMO:0003011	latin term	owl:equivalentProperty	obo:uberon#LATIN	latin term	semapv:ManualMappingCuration	orcid:0000-0002-1773-2692
+OMO:0003011	latin term	owl:equivalentProperty	obo:uberon/core#LATIN	latin term	semapv:ManualMappingCuration	orcid:0000-0002-1773-2692
