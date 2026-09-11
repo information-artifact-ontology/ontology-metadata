@@ -1,27 +1,23 @@
 #curie_map:
-#  CHEBI_HASH: http://purl.obolibrary.org/obo/chebi#
-#  FOVT_HASH: http://purl.obolibrary.org/obo/fovt#
-#  HP_HASH: http://purl.obolibrary.org/obo/hp#
-#  MONDO_HASH: http://purl.obolibrary.org/obo/mondo#
-#  NCBITaxon_HASH: http://purl.obolibrary.org/obo/ncbitaxon#
 #  OMO: http://purl.obolibrary.org/obo/OMO_
-#  UBERON_CORE_HASH: http://purl.obolibrary.org/obo/uberon/core#
-#  UBERON_HASH: http://purl.obolibrary.org/obo/uberon#
+#  obo: http://purl.obolibrary.org/obo/
 #  orcid: https://orcid.org/
 #  owl: http://www.w3.org/2002/07/owl#
 #  semapv: https://w3id.org/semapv/vocab/
 #mapping_set_id: https://github.com/information-artifact-ontology/ontology-metadata/raw/refs/heads/master/src/ontology/components/omo-to-external.tsv
 #license: https://creativecommons.org/publicdomain/zero/1.0/
+#object_type: owl annotation property
+#subject_type: owl annotation property
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id
-OMO:0003000	abbreviation	owl:equivalentProperty	HP_HASH:abbreviation	abbreviation	semapv:ManualMappingCuration	
-OMO:0003003	layperson synonym	owl:equivalentProperty	HP_HASH:layperson	layperson	semapv:ManualMappingCuration	
-OMO:0003004	plural form	owl:equivalentProperty	HP_HASH:plural_form	plural form	semapv:ManualMappingCuration	
-OMO:0003005	UK spelling synonym synonym	owl:equivalentProperty	HP_HASH:uk_spelling	uk spelling	semapv:ManualMappingCuration	
-OMO:0003006	misspelling	owl:equivalentProperty	FOVT_HASH:misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003006	misspelling	owl:equivalentProperty	MONDO_HASH:MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003006	misspelling	owl:equivalentProperty	NCBITaxon_HASH:misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003006	misspelling	owl:equivalentProperty	UBERON_CORE_HASH:MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003007	misnomer	owl:equivalentProperty	NCBITaxon_HASH:misnomer	misnomer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003010	International Nonproprietary Name	owl:equivalentProperty	CHEBI_HASH:INN	INN	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-OMO:0003011	latin term	owl:equivalentProperty	UBERON_CORE_HASH:LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
-OMO:0003011	latin term	owl:equivalentProperty	UBERON_HASH:LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
+OMO:0003000	abbreviation	skos:exactMatch	obo:hp#abbreviation	abbreviation	semapv:ManualMappingCuration	
+OMO:0003003	layperson synonym	skos:exactMatch	obo:hp#layperson	layperson	semapv:ManualMappingCuration	
+OMO:0003004	plural form	skos:exactMatch	obo:hp#plural_form	plural form	semapv:ManualMappingCuration	
+OMO:0003005	UK spelling synonym synonym	skos:exactMatch	obo:hp#uk_spelling	uk spelling	semapv:ManualMappingCuration	
+OMO:0003006	misspelling	skos:exactMatch	obo:fovt#misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	skos:exactMatch	obo:mondo#MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	skos:exactMatch	obo:ncbitaxon#misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	skos:exactMatch	obo:uberon/core#MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003007	misnomer	skos:exactMatch	obo:ncbitaxon#misnomer	misnomer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003010	International Nonproprietary Name	skos:exactMatch	obo:chebi#INN	INN	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003011	latin term	skos:exactMatch	obo:uberon#LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
+OMO:0003011	latin term	skos:exactMatch	obo:uberon/core#LATIN	latin term	semapv:ManualMappingCuration  orcid:0000-0002-1773-2692	
