@@ -4,7 +4,7 @@
 #  orcid: https://orcid.org/
 #  owl: http://www.w3.org/2002/07/owl#
 #  semapv: https://w3id.org/semapv/vocab/
-#mapping_set_id: https://github.com/information-artifact-ontology/ontology-metadata/raw/refs/heads/master/src/ontology/components/omo-to-external.tsv
+#mapping_set_id: http://purl.obolibrary.org/obo/omo/components/omo-to-external.tsv
 #license: https://creativecommons.org/publicdomain/zero/1.0/
 #object_type: owl annotation property
 #subject_type: owl annotation property
