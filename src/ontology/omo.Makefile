@@ -8,6 +8,11 @@ $(ONT)-disease.owl: $(ONT)-full.owl
 	$(ROBOT) merge --input $< \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
+sssom: components/omo-to-external.tsv
+	uvx --from "sssom-pydantic[bridge,cli]" sssom-pydantic owl \
+		--input components/omo-to-external.tsv \
+		--output tmp/omo-to-external.ofn
+
 MERGE_TEMPLATE=../templates/annotation_properties.tsv
 
 merge_template: $(MERGE_TEMPLATE)

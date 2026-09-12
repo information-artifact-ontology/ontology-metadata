@@ -1,0 +1,23 @@
+#curie_map:
+#  OMO: http://purl.obolibrary.org/obo/OMO_
+#  obo: http://purl.obolibrary.org/obo/
+#  orcid: https://orcid.org/
+#  owl: http://www.w3.org/2002/07/owl#
+#  semapv: https://w3id.org/semapv/vocab/
+#mapping_set_id: http://purl.obolibrary.org/obo/omo/components/omo-to-external.tsv
+#license: https://creativecommons.org/publicdomain/zero/1.0/
+#object_type: owl annotation property
+#subject_type: owl annotation property
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id
+OMO:0003000	abbreviation	owl:equivalentProperty	obo:hp#abbreviation	abbreviation	semapv:ManualMappingCuration	
+OMO:0003003	layperson synonym	owl:equivalentProperty	obo:hp#layperson	layperson	semapv:ManualMappingCuration	
+OMO:0003004	plural form	owl:equivalentProperty	obo:hp#plural_form	plural form	semapv:ManualMappingCuration	
+OMO:0003005	UK spelling synonym synonym	owl:equivalentProperty	obo:hp#uk_spelling	uk spelling	semapv:ManualMappingCuration	
+OMO:0003006	misspelling	owl:equivalentProperty	obo:fovt#misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	owl:equivalentProperty	obo:mondo#MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	owl:equivalentProperty	obo:ncbitaxon#misspelling	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003006	misspelling	owl:equivalentProperty	obo:uberon/core#MISSPELLING	misspelling	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003007	misnomer	owl:equivalentProperty	obo:ncbitaxon#misnomer	misnomer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003010	International Nonproprietary Name	owl:equivalentProperty	obo:chebi#INN	INN	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+OMO:0003011	latin term	owl:equivalentProperty	obo:uberon#LATIN	latin term	semapv:ManualMappingCuration	orcid:0000-0002-1773-2692
+OMO:0003011	latin term	owl:equivalentProperty	obo:uberon/core#LATIN	latin term	semapv:ManualMappingCuration	orcid:0000-0002-1773-2692
