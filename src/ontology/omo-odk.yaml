@@ -4,6 +4,7 @@ github_org: information-artifact-ontology
 repo: ontology-metadata
 git_main_branch: master
 edit_format: owl
+use_mappings: true
 export_formats:
   - owl
   - obo
@@ -13,9 +14,16 @@ release_artefacts:
 primary_release: full
 documentation:
   documentation_system: mkdocs
-robot_java_args: '-Xmx12G'
-import_group:
+sssom_mappingset_group:
   products:
+    - id: omo-to-external
+      maintenance: manual
+      release_mappings: true
+components:
+  products:
+    - filename: omo-to-external.owl
+      use_mappings: true
+robot_java_args: '-Xmx12G'
 namespaces:
   - http://purl.obolibrary.org/obo/OMO_
   - http://purl.obolibrary.org/obo/IAO_
