@@ -24,6 +24,8 @@ components:
     - filename: omo-to-external.owl
       use_mappings: true
 robot_java_args: '-Xmx12G'
+import_group:
+  products:
 namespaces:
   - http://purl.obolibrary.org/obo/OMO_
   - http://purl.obolibrary.org/obo/IAO_
