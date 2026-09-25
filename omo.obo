@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-03-16
+data-version: releases/2026-09-25
 synonymtypedef: OMO:0003000 "abbreviation"
 synonymtypedef: OMO:0003001 "ambiguous synonym"
 synonymtypedef: OMO:0003002 "dubious synonym"
@@ -15,7 +15,10 @@ synonymtypedef: OMO:0003011 "latin term"
 synonymtypedef: OMO:0003012 "acronym"
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: pav http://purl.org/pav/ 
 idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: sssom https://w3id.org/sssom/ 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: omo
 property_value: dc:contributor "Adam Goldstein" xsd:string
@@ -56,7 +59,7 @@ property_value: dc:contributor "William Hogan" xsd:string
 property_value: dc:contributor "Yongqun (Oliver) He" xsd:string
 property_value: dc:description "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO)." xsd:string
 property_value: dc:title "OBO Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2026-03-16" xsd:string
+property_value: owl:versionInfo "2026-09-25" xsd:string
 property_value: protege:defaultLanguage "en" xsd:string
 property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
 

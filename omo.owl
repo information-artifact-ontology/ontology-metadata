@@ -4,15 +4,18 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:pav="http://purl.org/pav/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:sssom="https://w3id.org/sssom/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/omo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2026-09-25/omo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
@@ -53,7 +56,7 @@
         <dc:description xml:lang="en">An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies. The ontology was developed as part of Information Artifact Ontology (IAO).</dc:description>
         <dc:title xml:lang="en">OBO Metadata Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2026-03-16</owl:versionInfo>
+        <owl:versionInfo>2026-09-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -607,8 +610,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>abbreviation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/hp#abbreviation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003000"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/hp#abbreviation"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>abbreviation</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>abbreviation</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -647,8 +661,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>layperson synonym</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003003"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>layperson</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>layperson synonym</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -661,8 +686,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>plural form</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/hp#plural_form"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/hp#plural_form"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>plural form</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>plural form</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -675,8 +711,19 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>UK spelling synonym</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/hp#uk_spelling"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/hp#uk_spelling"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>uk spelling</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>UK spelling synonym</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -688,8 +735,56 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>misspelling</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/fovt#misspelling"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/mondo#MISSPELLING"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/uberon/core#MISSPELLING"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/fovt#misspelling"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>misspelling</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>misspelling</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/mondo#MISSPELLING"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>misspelling</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>misspelling</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>misspelling</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>misspelling</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/uberon/core#MISSPELLING"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>misspelling</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>misspelling</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -701,8 +796,20 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
         <rdfs:label>misnomer</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misnomer"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003007"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misnomer"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>misnomer</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>misnomer</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -744,8 +851,20 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-30</terms:created>
         <oboInOwl:hasExactSynonym>INN</oboInOwl:hasExactSynonym>
         <rdfs:label>International Nonproprietary Name</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/chebi#INN"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003010"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/chebi#INN"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>INN</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>International Nonproprietary Name</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -758,8 +877,32 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-12</terms:created>
         <rdfs:label>latin term</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/uberon#LATIN"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/uberon#LATIN"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>latin term</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>latin term</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:object_label>latin term</sssom:object_label>
+        <sssom:object_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+        <sssom:subject_label>latin term</sssom:subject_label>
+        <sssom:subject_type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    </owl:Axiom>
     
 
 
@@ -911,6 +1054,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.org/pav/authoredBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/pav/authoredBy"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
@@ -991,6 +1140,42 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://w3id.org/sssom/mapping_justification -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/mapping_justification"/>
+    
+
+
+    <!-- https://w3id.org/sssom/object_label -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/object_label"/>
+    
+
+
+    <!-- https://w3id.org/sssom/object_type -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/object_type"/>
+    
+
+
+    <!-- https://w3id.org/sssom/subject_label -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/subject_label"/>
+    
+
+
+    <!-- https://w3id.org/sssom/subject_type -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/subject_type"/>
     
 
 
