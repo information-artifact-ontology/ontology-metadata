@@ -13,3 +13,8 @@ MERGE_TEMPLATE=../templates/annotation_properties.tsv
 merge_template: $(MERGE_TEMPLATE)
 	$(ROBOT) template --prefix "OMO: http://purl.obolibrary.org/obo/OMO_" --merge-before --input $(SRC) \
  --template $(MERGE_TEMPLATE) convert -f owl -o $(SRC)
+
+
+$(EDIT_PREPROCESSED): $(SRC)
+	$(ROBOT) query --input $< --update $(SPARQLDIR)/inject-is-metadata-tag.ru  \
+		convert --format ofn --output $@
