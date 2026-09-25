@@ -124,9 +124,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-16"
+        "val" : "2026-09-25"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/omo/releases/2026-09-25/omo-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
@@ -1755,6 +1755,27 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/hp#abbreviation",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "abbreviation"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "abbreviation"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1818,6 +1839,27 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/hp#layperson",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "layperson"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "layperson synonym"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1841,6 +1883,27 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/hp#plural_form",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "plural form"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "plural form"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1864,6 +1927,27 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/hp#uk_spelling",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "uk spelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "UK spelling synonym"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1884,6 +1968,102 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/fovt#misspelling",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/mondo#MISSPELLING",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon#misspelling",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/uberon/core#MISSPELLING",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "misspelling"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1904,6 +2084,30 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-03-03"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon#misnomer",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "misnomer"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "misnomer"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -1977,6 +2181,30 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-09-30"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/chebi#INN",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0003-4423-4370"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "INN"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "International Nonproprietary Name"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -2000,6 +2228,54 @@
         }, {
           "pred" : "http://purl.org/dc/terms/created",
           "val" : "2023-10-12"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/uberon#LATIN",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0002-1773-2692"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "latin term"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "latin term"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/uberon/core#LATIN",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.org/pav/authoredBy",
+              "val" : "https://orcid.org/0000-0002-1773-2692"
+            }, {
+              "pred" : "https://w3id.org/sssom/mapping_justification",
+              "val" : "https://w3id.org/semapv/vocab/ManualMappingCuration"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_label",
+              "val" : "latin term"
+            }, {
+              "pred" : "https://w3id.org/sssom/object_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_label",
+              "val" : "latin term"
+            }, {
+              "pred" : "https://w3id.org/sssom/subject_type",
+              "val" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+            } ]
+          }
         } ]
       }
     }, {
@@ -2144,6 +2420,10 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://purl.org/pav/authoredBy",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -2258,6 +2538,30 @@
           "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/21"
         } ]
       }
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/sssom/mapping_justification",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/sssom/object_label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/sssom/object_type",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/sssom/subject_label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/sssom/subject_type",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000027",
