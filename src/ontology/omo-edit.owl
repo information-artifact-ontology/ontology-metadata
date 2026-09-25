@@ -12,6 +12,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/omo/omo-edit.owl>
+Import(<http://purl.obolibrary.org/obo/omo/components/omo-to-external.owl>)
 Annotation(protege:defaultLanguage "en")
 Annotation(dc:contributor "Adam Goldstein"@en)
 Annotation(dc:contributor "Alan Ruttenberg"@en)
